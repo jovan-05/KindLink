@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-mono: var(--font-jetbrains), monospace;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-stone-50);
+  color: var(--color-stone-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet sits under the sticky header. */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--color-stone-100);
+  z-index: 0;
+}
+
+/* Muted basemap so the heat overlay and pins carry the color. */
+.grayscale-tiles {
+  filter: grayscale(1) contrast(0.9) brightness(1.04);
+}
+
+.num-pin {
+  background: var(--color-stone-900);
+  color: #fff;
+  border: 1px solid rgb(251 191 36 / 0.8);
+  border-radius: 9999px;
+  font: 700 12px/26px var(--font-sans);
+  text-align: center;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.45);
+  transition: transform 150ms ease;
+}
+.num-pin.is-selected {
+  background: var(--color-amber-500);
+  color: var(--color-stone-950);
+  border-color: #fff;
+  box-shadow: 0 0 0 4px rgb(251 191 36 / 0.4), 0 4px 10px rgb(0 0 0 / 0.45);
+  transform: scale(1.25);
+}
+
+.hood-label {
+  background: rgb(12 10 9 / 0.8);
+  color: var(--color-amber-200);
+  border: 1px solid rgb(245 158 11 / 0.3);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font: 700 10px/16px var(--font-sans);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
