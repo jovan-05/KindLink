@@ -10,12 +10,6 @@ so you can see what the taste data adds.
 
 Built for the Qloo Agentic Hackathon (2026).
 
-![Landing page](docs/screenshots/landing.png)
-![Results page](docs/screenshots/plan.png)
-![Generic AI vs KindLink](docs/screenshots/compare.png)
-![Sponsor pitch](docs/screenshots/pitch.png)
-
-> Screenshot placeholders: drop PNGs into `docs/screenshots/`.
 
 ## What makes it trustworthy
 - **Nothing invented.** The LLM may write concepts, copy and reasoning, but may only *name* entities that
@@ -136,26 +130,6 @@ Frontend: `npm run lint`, `npm run build`, `npm run check-secrets` (after a buil
 | `DATABASE_URL` | backend | no | Postgres for Qloo cache + plan storage. Memory if unset. |
 | `CORS_ORIGINS` | backend | no | Only needed if the browser calls the backend directly |
 | `BACKEND_URL` | frontend | yes in prod | Where `/api/*` is proxied. Read at **build time** (Next rewrites). |
-
-## Deploy on Railway
-Two services from this repo plus a Postgres database.
-
-1. **Create a project** → *Deploy from GitHub repo* → pick this repo.
-2. **Postgres**: *New* → *Database* → *PostgreSQL*.
-3. **Backend service**
-   - Settings → *Root Directory*: `backend`. Railway detects Python from `requirements.txt` and uses `backend/railway.json`
-     (start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`, healthcheck `/api/health`).
-   - Variables: `QLOO_API_KEY`, `OPENROUTER_API_KEY`, `DATABASE_URL` = `${{Postgres.DATABASE_URL}}`, optionally `LLM_MODEL`.
-   - Networking: you can keep it private. Note its private URL, e.g. `http://backend.railway.internal:PORT`
-     (or generate a public domain if you prefer).
-4. **Frontend service** (add the same repo again)
-   - *Root Directory*: `frontend`. Uses `frontend/railway.json` (build `npm ci && npm run build`, start `next start -p $PORT`).
-   - Variables: `BACKEND_URL` = the backend URL from step 3 (no trailing slash). Set it **before** the first
-     build, since it's baked into the rewrites.
-   - Networking → *Generate Domain*. This is the public URL.
-5. Open `https://<frontend-domain>/api/health` → should show `"qloo": true, "llm": true, "postgres": true`.
-6. (Optional) Warm the database: the example plans already load from `backend/data/examples/`, so this is only
-   needed to also warm the Qloo cache: `railway run --service backend python scripts/precache_examples.py`.
 
 ## Known limitations
 - **US cities only.** Qloo place data for Indian cities came back unranked in our tests; other non-US cities
