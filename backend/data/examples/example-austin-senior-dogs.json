@@ -1,0 +1,3192 @@
+{
+ "id": "example-austin-senior-dogs",
+ "created_at": "2026-10-21T15:56:29.221477+00:00",
+ "inputs": {
+  "cause": "Animal rescue shelter that rehomes senior dogs",
+  "city": "Austin",
+  "guests": 150,
+  "budget": "modest",
+  "month": "March",
+  "interests": [
+   "Marley & Me"
+  ]
+ },
+ "profile": {
+  "keywords": [
+   "senior dogs",
+   "animal rescue",
+   "dog shelter",
+   "rehoming",
+   "adoption"
+  ],
+  "taste_tags": [
+   {
+    "id": "urn:tag:genre:media:dogs",
+    "name": "Dogs",
+    "type": "urn:tag:genre:media",
+    "popularity": 0.9994538
+   }
+  ],
+  "keyword_tags": [
+   {
+    "id": "urn:tag:keyword:qloo:animal_rescue",
+    "name": "Animal Rescue",
+    "type": "urn:tag:keyword:qloo",
+    "popularity": 0.13127805
+   },
+   {
+    "id": "urn:tag:keyword:qloo:adoption",
+    "name": "Adoption",
+    "type": "urn:tag:keyword:qloo",
+    "popularity": 0.90133286
+   }
+  ],
+  "org_tags": [
+   {
+    "id": "urn:tag:category:place:animal_shelter",
+    "name": "Animal shelter",
+    "type": "urn:tag:category:place",
+    "popularity": 0.998704
+   },
+   {
+    "id": "urn:tag:category:place:animal_rescue_service",
+    "name": "Animal rescue service",
+    "type": "urn:tag:category:place",
+    "popularity": 0.9982045
+   },
+   {
+    "id": "urn:tag:category:place:animal_protection_organization",
+    "name": "Animal protection organization",
+    "type": "urn:tag:category:place",
+    "popularity": 0.99822783
+   }
+  ],
+  "interests": [
+   {
+    "id": "1EB7BC58-738E-483A-9EB3-C165D1A85DE7",
+    "name": "Marley & Me",
+    "type": "urn:entity:movie"
+   }
+  ],
+  "unresolved_interests": []
+ },
+ "sections": {
+  "venues": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "522C805C-BC0D-4477-A447-24D475284BFE",
+     "name": "Auditorium Shores Dog Park",
+     "kind": "place",
+     "address": "Austin, TX 78704",
+     "neighborhood": null,
+     "lat": 30.263522799999997,
+     "lon": -97.7531327,
+     "image": "https://images.qloo.com/i/522C805C-BC0D-4477-A447-24D475284BFE-420x-auto.jpg",
+     "website": null,
+     "description": "Downtown off-leash dog park with riverfront and skyline views and large grassy play areas.",
+     "tags": [
+      "Routine visit",
+      "Shaded areas",
+      "Natural",
+      "Pet care",
+      "Riverfront",
+      "Downtown"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.871,
+      "popularity": 0.916,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": "Large riverside dog park offers ample grassy space and natural setting for a senior-dog fundraiser."
+    },
+    {
+     "id": "519C731D-6559-4719-8D29-93200985917A",
+     "name": "Austin Taco Project",
+     "kind": "place",
+     "address": "500 E 4th St Austin, TX 78701",
+     "neighborhood": "Downtown",
+     "lat": 30.2649637,
+     "lon": -97.73826179999999,
+     "image": "https://images.qloo.com/i/519C731D-6559-4719-8D29-93200985917A-420x-auto.jpg",
+     "website": "https://www.hilton.com/en/hotels/auscvhh-hilton-austin/dining/austin-taco-project/%3FSEO_id%3DGMB--1-R-AUSCVHH-1%26y_source%3D1_MTU0MDUzMjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%253D",
+     "description": "Fusion tacos and craft beer served on a large downtown Hilton patio.",
+     "tags": [
+      "Buffet",
+      "Vegetarian",
+      "Convenience stop",
+      "Happy hour drinks",
+      "Burger",
+      "Coffee and tea"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.86,
+      "popularity": 0.834,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": "Large downtown patio provides casual taco, beer, and bar service suitable for 150 guests."
+    },
+    {
+     "id": "8549ED61-18FA-4088-B14A-A8B4C1018C46",
+     "name": "The Pond Hockey Club",
+     "kind": "place",
+     "address": "9402 United Dr Austin, TX 78758",
+     "neighborhood": null,
+     "lat": 30.3789961,
+     "lon": -97.7301073,
+     "image": "https://images.qloo.com/i/8549ED61-18FA-4088-B14A-A8B4C1018C46-420x-auto.jpg",
+     "website": "https://www.pondhockeyclubaustintx.com/",
+     "description": "Pond-style hockey facility hosting casual ice skating, pickup hockey, lessons, and events in Austin, Texas.",
+     "tags": [
+      "Late night",
+      "Sports complex",
+      "Culture arts",
+      "Morning",
+      "Evening",
+      "Hockey club"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.84,
+      "popularity": 0.871,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": "Sports facility already hosts events and offers flexible space for an affordable group gathering."
+    },
+    {
+     "id": "9ED01CFA-E9B0-4930-8ED0-10BBF69D811A",
+     "name": "Cannon + Belle",
+     "kind": "place",
+     "address": "500 E 4th St Austin, TX 78701",
+     "neighborhood": "Downtown",
+     "lat": 30.2650555,
+     "lon": -97.7384697,
+     "image": "https://images.qloo.com/i/9ED01CFA-E9B0-4930-8ED0-10BBF69D811A-420x-auto.jpg",
+     "website": "https://www.hilton.com/en/hotels/auscvhh-hilton-austin/dining/cannon-and-belle/%3FSEO_id%3DGMB--2-R-AUSCVHH-2%26y_source%3D1_MTU0MDUzMjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%253D",
+     "description": "Farm-to-table comfort cuisine with craft cocktails and kombucha on tap, served in a refined yet relaxed hotel dining room.",
+     "tags": [
+      "Hard liquor",
+      "Dessert",
+      "Credit cards",
+      "Late night food",
+      "Date night",
+      "Vegetarian"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.839,
+      "popularity": 0.558,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": "Hotel dining room offers refined but relaxed food, cocktails, and a private setting."
+    },
+    {
+     "id": "EC33984D-F058-448B-BB27-C17BC830AB16",
+     "name": "Cosmic Pickle",
+     "kind": "place",
+     "address": "121 Pickle Rd Austin, TX 78704",
+     "neighborhood": "Dawson",
+     "lat": 30.226957,
+     "lon": -97.7624945,
+     "image": "https://images.qloo.com/i/EC33984D-F058-448B-BB27-C17BC830AB16-420x-auto.jpg",
+     "website": "https://www.cosmichospitalitygroup.com/",
+     "description": "Garden venue with specialty coffee, craft cocktails, local beers, food trucks, live music, arcade games and outdoor seating.",
+     "tags": [
+      "Debit cards",
+      "Food trailer park",
+      "Poke",
+      "Evening",
+      "Cocktails",
+      "Garden"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.802,
+      "popularity": 0.996,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": "Garden venue includes food trucks, live music, outdoor seating, and space for 150 guests."
+    },
+    {
+     "id": "614970A6-35AD-488A-8727-9836AD0B3E22",
+     "name": "Highland Lanes",
+     "kind": "place",
+     "address": "8909 Burnet Rd Austin, TX 78757",
+     "neighborhood": "Wooten",
+     "lat": 30.3719441,
+     "lon": -97.7255704,
+     "image": "https://images.qloo.com/i/614970A6-35AD-488A-8727-9836AD0B3E22-420x-auto.jpg",
+     "website": "http://highlandlanes.com/",
+     "description": "No-frills old-school bowling alley with full bar, snack options, family-friendly bumpers, leagues, and affordable prices in north Austin.",
+     "tags": [
+      "Full bar",
+      "Dining drinking",
+      "Groups of friends",
+      "Bar",
+      "Tourist attraction",
+      "Sports recreation"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.77,
+      "popularity": 0.96,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": "Affordable, family-friendly bowling venue accommodates large groups with food, drinks, and recreation."
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Dogs, Marley & Me"
+  },
+  "performers": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "4D4F33CC-6A7F-43BD-8C98-8596C7D2B477",
+     "name": "Seedless",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/4D4F33CC-6A7F-43BD-8C98-8596C7D2B477-420x-auto.jpg",
+     "website": null,
+     "description": "Seedless is a reggae band that blends roots reggae and dancehall styles, often incorporating lovers rock elements. They are recognized for their smooth vocal harmonies and socially conscious lyrics, contributing to the reggae scene with a m",
+     "tags": [
+      "Conscious",
+      "Conscious Dancehall",
+      "Soulful",
+      "Loyal",
+      "Guitar",
+      "Reggae Fusion"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.906,
+      "popularity": 0.723,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "C69386CD-C12B-410B-A732-EAA3C7DD338E",
+     "name": "Katrina Carlson",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/C69386CD-C12B-410B-A732-EAA3C7DD338E-420x-auto.jpg",
+     "website": null,
+     "description": "Katrina Carlson is an American jazz vocalist, pianist, and songwriter recognized for her smooth jazz and adult contemporary style. She has released several albums showcasing her skills as a singer and pianist, blending jazz with pop influen",
+     "tags": [
+      "Melodic",
+      "Jazz-Loving",
+      "Polished",
+      "Intimate Ballads",
+      "Smooth Jazz",
+      "Hope"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.901,
+      "popularity": 0.398,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "B7D240B1-EA52-42A6-810F-E08ED6CE2E40",
+     "name": "madelyn",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/B7D240B1-EA52-42A6-810F-E08ED6CE2E40-420x-auto.jpg",
+     "website": null,
+     "description": "Madelyn is a pop singer recognized for her melodic voice and contemporary pop music style. She has gained attention for her engaging vocals and relatable lyrics.",
+     "tags": [
+      "Vocals",
+      "Youthful",
+      "Pop",
+      "Contemporary",
+      "Dance Pop",
+      "Adele"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.888,
+      "popularity": 0.667,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "DF9BFCB6-5976-4A5B-BCF5-B38F67116DAF",
+     "name": "The Ranch",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/DF9BFCB6-5976-4A5B-BCF5-B38F67116DAF-420x-auto.jpg",
+     "website": null,
+     "description": "The Ranch was a country rock band formed in the late 1990s, featuring Keith Urban as the lead vocalist and guitarist, along with Jerry Flowers and Peter Clarke. The band combined elements of country and rock music, contributing to the count",
+     "tags": [
+      "Catchy",
+      "Country Rock",
+      "Rock-Driven",
+      "Love",
+      "Heartache",
+      "Country Music Lovers"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.886,
+      "popularity": 0.578,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "1F97CABD-1FA3-4F9E-BB07-FFFE72F17F9A",
+     "name": "Barbra Lica",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/1F97CABD-1FA3-4F9E-BB07-FFFE72F17F9A-420x-auto.jpg",
+     "website": null,
+     "description": "Barbra Lica is a Canadian jazz singer and songwriter recognized for her smooth, expressive vocal style and contemporary jazz interpretations. She has released several albums showcasing her talent in vocal jazz, blending traditional and mode",
+     "tags": [
+      "Nu Jazz Vocals",
+      "Expressive",
+      "Soprano",
+      "Sarah Vaughan",
+      "Contemporary Jazz",
+      "Contemporary"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.88,
+      "popularity": 0.537,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Marley & Me (1.00)"
+      ]
+     },
+     "reason": ""
+    }
+   ],
+   "note": "Matched on taste, not location: Qloo's artist insights ignore the city filter, so check availability.",
+   "quality": "ranked",
+   "signal": "Dogs, Marley & Me",
+   "band": "modest budget: popularity 0.30-0.80"
+  },
+  "sponsors": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "F8FE5231-DA19-4112-AB22-E8F608B0386B",
+     "name": "Woof Gang Bakery & Grooming Austin",
+     "kind": "place",
+     "address": "1204 N Lamar Blvd Austin, TX 78703",
+     "neighborhood": "Clarksville",
+     "lat": 30.2773395,
+     "lon": -97.7514422,
+     "image": "https://images.qloo.com/i/F8FE5231-DA19-4112-AB22-E8F608B0386B-420x-auto.jpg",
+     "website": "http://woofgangbakery.com/",
+     "description": "Neighborhood pet bakery and grooming shop offering handmade gourmet treats, premium supplies, and personalized spa grooming services.",
+     "tags": [
+      "Central",
+      "Pet supply store",
+      "Nfc mobile payments",
+      "Convenient",
+      "Shopping",
+      "Delivery"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.871,
+      "popularity": 0.728,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "D37ED82D-94B4-4514-AD88-136252FEC776",
+     "name": "Yummi Joy",
+     "kind": "place",
+     "address": "409 W 2nd St Austin, TX 78701",
+     "neighborhood": "Downtown",
+     "lat": 30.265284299999998,
+     "lon": -97.74811869999999,
+     "image": "https://images.qloo.com/i/D37ED82D-94B4-4514-AD88-136252FEC776-420x-auto.jpg",
+     "website": "http://www.yummijoy.com/",
+     "description": "Playful candy and dessert shop offering craft sodas, housemade fudge, coffee, and vegan Thai coconut ice cream in cartoon-ish, family-friendly surroundings.",
+     "tags": [
+      "Coffee",
+      "Young adults",
+      "Playful",
+      "Onsite services",
+      "Themed",
+      "Impulse visit"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.835,
+      "popularity": 0.71,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "528F51B4-6D81-4129-9C1D-B898DCE25EEF",
+     "name": "Lady Quack's Bakery and Cake Shop",
+     "kind": "place",
+     "address": "1900 Simond Ave #300 Austin, TX 78723",
+     "neighborhood": "Mueller",
+     "lat": 30.2970972,
+     "lon": -97.7043789,
+     "image": "https://images.qloo.com/i/528F51B4-6D81-4129-9C1D-B898DCE25EEF-420x-auto.jpg",
+     "website": "https://ladyquacks.com/",
+     "description": "Vintage-inspired bakery in Austin offering custom cakes, decorated cookies, pastries, and coffee with wedding, delivery, and same-day services.",
+     "tags": [
+      "Glass enclosed kitchen",
+      "Bakery",
+      "Delivery",
+      "Custom cakes",
+      "Drive thru",
+      "Wheelchair accessible restroom"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.823,
+      "popularity": 0.456,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "A6414467-993E-4912-B5E0-CF1D7F69D6AF",
+     "name": "University Co-op",
+     "kind": "place",
+     "address": "2246 Guadalupe St Austin, TX 78705",
+     "neighborhood": "West Campus",
+     "lat": 30.286164499999998,
+     "lon": -97.7419204,
+     "image": "https://images.qloo.com/i/A6414467-993E-4912-B5E0-CF1D7F69D6AF-420x-auto.jpg",
+     "website": "https://www.universitycoop.com/",
+     "description": "Campus retail store offering used textbooks, school supplies, and extensive Texas Longhorn apparel and gifts, with proceeds supporting student course-material scholarships.",
+     "tags": [
+      "Activewear",
+      "Quick visit",
+      "Education learning",
+      "American express",
+      "Temperature check required",
+      "Same day delivery"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.817,
+      "popularity": 0.952,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "0F4F6E9B-5FD0-4C2F-9B4A-DB9FA373AF4C",
+     "name": "Café Crème - Oltorf",
+     "kind": "place",
+     "address": "1834 E Oltorf St Austin, TX 78741",
+     "neighborhood": null,
+     "lat": 30.2318602,
+     "lon": -97.7356308,
+     "image": "https://images.qloo.com/i/0F4F6E9B-5FD0-4C2F-9B4A-DB9FA373AF4C-420x-auto.jpg",
+     "website": "https://cafecremeaustin.com/locations/oltorf",
+     "description": "Laid-back coffee shop serving housemade pastries, crepes, coffee, small plates, and drinks with art-filled interior and sidewalk seating.",
+     "tags": [
+      "Alcohol",
+      "Cocktails",
+      "Online ordering",
+      "Coffee",
+      "Breakfast restaurant",
+      "Morning"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.812,
+      "popularity": 0.885,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "0025C006-CD75-479F-B42E-DFD4D16A6DE5",
+     "name": "Petco",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/0025C006-CD75-479F-B42E-DFD4D16A6DE5-420x-auto.jpg",
+     "website": null,
+     "description": "Petco is a pet specialty retailer offering a wide range of pet nutrition products, supplies, grooming services, and veterinary care across the U.S., Mexico, and Puerto Rico.",
+     "tags": [
+      "Pets in the United States",
+      "Pet stores",
+      "Retail"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.955,
+      "popularity": 0.96,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    },
+    {
+     "id": "D019C9FF-8F94-4734-B1FC-E9D1F6541645",
+     "name": "Petsmart",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/D019C9FF-8F94-4734-B1FC-E9D1F6541645-420x-auto.jpg",
+     "website": null,
+     "description": "PetSmart is a leading pet store chain offering pet supplies, food, accessories, grooming, training, and adoption services.",
+     "tags": [
+      "Pet stores",
+      "Retail",
+      "Pets in the United States",
+      "Functional Design",
+      "Clear Signage"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.95,
+      "popularity": 0.964,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    },
+    {
+     "id": "9D40ABD2-59B0-462D-A01A-BCB85B9951B0",
+     "name": "American Kennel Club",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/9D40ABD2-59B0-462D-A01A-BCB85B9951B0-420x-auto.jpg",
+     "website": null,
+     "description": "The American Kennel Club is a not-for-profit organization recognized as an expert in dog breed, health, and training information, advocating for purebred dogs.",
+     "tags": [
+      "NGO",
+      "Professional NGO",
+      "Traditional",
+      "Professional",
+      "Educational",
+      "Formal"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.939,
+      "popularity": 0.915,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Dogs, Marley & Me"
+  },
+  "neighborhoods": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "95AD5CC7-8AF3-4744-8FCB-07264908B4F8",
+     "name": "Downtown",
+     "lat": 30.267536602272727,
+     "lon": -97.74867007954545,
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.49,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "88 heatmap cells"
+      ]
+     }
+    },
+    {
+     "id": "AC855576-643D-4DA9-9C4D-CDBCB3F26A65",
+     "name": "Gateway",
+     "lat": 30.4023284,
+     "lon": -97.72558599999999,
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.515,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "10 heatmap cells"
+      ]
+     }
+    },
+    {
+     "id": "DA177487-87EE-43FB-B128-877FE3D9CDF6",
+     "name": "Cherrywood",
+     "lat": 30.29036781818182,
+     "lon": -97.71109127272726,
+     "evidence": {
+      "signal": "Dogs, Marley & Me",
+      "affinity": 0.388,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "11 heatmap cells"
+      ]
+     }
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Dogs, Marley & Me",
+   "heat": [
+    [
+     30.26802,
+     -97.74742,
+     1.0
+    ],
+    [
+     30.29549,
+     -97.7433,
+     0.994
+    ],
+    [
+     30.27351,
+     -97.74056,
+     0.994
+    ],
+    [
+     30.26665,
+     -97.73918,
+     0.994
+    ],
+    [
+     30.26665,
+     -97.7639,
+     0.986
+    ],
+    [
+     30.26802,
+     -97.7433,
+     0.984
+    ],
+    [
+     30.24742,
+     -97.71721,
+     0.978
+    ],
+    [
+     30.2021,
+     -97.6664,
+     0.977
+    ],
+    [
+     30.2488,
+     -97.75017,
+     0.975
+    ],
+    [
+     30.26527,
+     -97.74742,
+     0.969
+    ],
+    [
+     30.2639,
+     -97.77077,
+     0.967
+    ],
+    [
+     30.27626,
+     -97.75291,
+     0.967
+    ],
+    [
+     30.32158,
+     -97.77351,
+     0.964
+    ],
+    [
+     30.13481,
+     -97.63893,
+     0.961
+    ],
+    [
+     30.29549,
+     -97.7845,
+     0.952
+    ],
+    [
+     30.2845,
+     -97.73781,
+     0.944
+    ],
+    [
+     30.40123,
+     -97.72545,
+     0.941
+    ],
+    [
+     30.27077,
+     -97.7433,
+     0.941
+    ],
+    [
+     30.2639,
+     -97.75566,
+     0.941
+    ],
+    [
+     30.26665,
+     -97.74056,
+     0.938
+    ],
+    [
+     30.26527,
+     -97.73918,
+     0.938
+    ],
+    [
+     30.24468,
+     -97.79961,
+     0.935
+    ],
+    [
+     30.25017,
+     -97.75017,
+     0.932
+    ],
+    [
+     30.25978,
+     -97.73781,
+     0.929
+    ],
+    [
+     30.26802,
+     -97.76802,
+     0.921
+    ],
+    [
+     30.2639,
+     -97.7433,
+     0.919
+    ],
+    [
+     30.26115,
+     -97.75429,
+     0.918
+    ],
+    [
+     30.26802,
+     -97.74193,
+     0.916
+    ],
+    [
+     30.26802,
+     -97.73644,
+     0.915
+    ],
+    [
+     30.26939,
+     -97.77214,
+     0.911
+    ],
+    [
+     30.26939,
+     -97.74193,
+     0.908
+    ],
+    [
+     30.2639,
+     -97.73918,
+     0.902
+    ],
+    [
+     30.26802,
+     -97.74056,
+     0.901
+    ],
+    [
+     30.26665,
+     -97.76802,
+     0.899
+    ],
+    [
+     30.26665,
+     -97.74468,
+     0.895
+    ],
+    [
+     30.25841,
+     -97.73781,
+     0.892
+    ],
+    [
+     30.18288,
+     -97.72407,
+     0.892
+    ],
+    [
+     30.40123,
+     -97.7227,
+     0.89
+    ],
+    [
+     30.27763,
+     -97.73231,
+     0.887
+    ],
+    [
+     30.13619,
+     -97.63481,
+     0.886
+    ],
+    [
+     30.40123,
+     -97.68425,
+     0.884
+    ],
+    [
+     30.25154,
+     -97.75017,
+     0.878
+    ],
+    [
+     30.26115,
+     -97.75291,
+     0.864
+    ],
+    [
+     30.24742,
+     -97.75566,
+     0.861
+    ],
+    [
+     30.25841,
+     -97.73918,
+     0.858
+    ],
+    [
+     30.26115,
+     -97.73781,
+     0.855
+    ],
+    [
+     30.26939,
+     -97.7488,
+     0.855
+    ],
+    [
+     30.26939,
+     -97.73644,
+     0.852
+    ],
+    [
+     30.2227,
+     -97.74605,
+     0.849
+    ],
+    [
+     30.2845,
+     -97.73231,
+     0.849
+    ],
+    [
+     30.24742,
+     -97.75017,
+     0.848
+    ],
+    [
+     30.29686,
+     -97.70622,
+     0.846
+    ],
+    [
+     30.22682,
+     -97.76253,
+     0.843
+    ],
+    [
+     30.2639,
+     -97.74468,
+     0.833
+    ],
+    [
+     30.25978,
+     -97.73918,
+     0.832
+    ],
+    [
+     30.26665,
+     -97.73781,
+     0.832
+    ],
+    [
+     30.25978,
+     -97.75154,
+     0.83
+    ],
+    [
+     30.27489,
+     -97.74056,
+     0.826
+    ],
+    [
+     30.26253,
+     -97.75017,
+     0.826
+    ],
+    [
+     30.26253,
+     -97.73918,
+     0.825
+    ],
+    [
+     30.34355,
+     -97.73918,
+     0.816
+    ],
+    [
+     30.26115,
+     -97.74468,
+     0.815
+    ],
+    [
+     30.26939,
+     -97.73094,
+     0.813
+    ],
+    [
+     30.3669,
+     -97.78587,
+     0.8
+    ],
+    [
+     30.40123,
+     -97.74605,
+     0.797
+    ],
+    [
+     30.26527,
+     -97.73781,
+     0.796
+    ],
+    [
+     30.18562,
+     -97.87376,
+     0.796
+    ],
+    [
+     30.25017,
+     -97.7488,
+     0.795
+    ],
+    [
+     30.25429,
+     -97.76253,
+     0.792
+    ],
+    [
+     30.26802,
+     -97.74605,
+     0.789
+    ],
+    [
+     30.26115,
+     -97.74742,
+     0.785
+    ],
+    [
+     30.25154,
+     -97.7488,
+     0.781
+    ],
+    [
+     30.2639,
+     -97.72682,
+     0.781
+    ],
+    [
+     30.39848,
+     -97.71721,
+     0.777
+    ],
+    [
+     30.4026,
+     -97.72133,
+     0.777
+    ],
+    [
+     30.26665,
+     -97.75291,
+     0.776
+    ],
+    [
+     30.24468,
+     -97.76939,
+     0.77
+    ],
+    [
+     30.24605,
+     -97.75703,
+     0.769
+    ],
+    [
+     30.37788,
+     -97.78038,
+     0.768
+    ],
+    [
+     30.26253,
+     -97.7227,
+     0.767
+    ],
+    [
+     30.28587,
+     -97.73094,
+     0.766
+    ],
+    [
+     30.26527,
+     -97.74605,
+     0.764
+    ],
+    [
+     30.27077,
+     -97.76939,
+     0.762
+    ],
+    [
+     30.25017,
+     -97.75429,
+     0.761
+    ],
+    [
+     30.26665,
+     -97.73644,
+     0.75
+    ],
+    [
+     30.26115,
+     -97.75017,
+     0.747
+    ],
+    [
+     30.26665,
+     -97.74605,
+     0.747
+    ],
+    [
+     30.35179,
+     -97.79549,
+     0.744
+    ],
+    [
+     30.28038,
+     -97.73918,
+     0.741
+    ],
+    [
+     30.40398,
+     -97.77214,
+     0.736
+    ],
+    [
+     30.34218,
+     -97.83531,
+     0.736
+    ],
+    [
+     30.29549,
+     -97.74193,
+     0.734
+    ],
+    [
+     30.26527,
+     -97.7433,
+     0.733
+    ],
+    [
+     30.35042,
+     -97.79686,
+     0.733
+    ],
+    [
+     30.2639,
+     -97.73094,
+     0.729
+    ],
+    [
+     30.4026,
+     -97.72545,
+     0.727
+    ],
+    [
+     30.2639,
+     -97.73781,
+     0.717
+    ],
+    [
+     30.39986,
+     -97.72545,
+     0.717
+    ],
+    [
+     30.26802,
+     -97.73918,
+     0.715
+    ],
+    [
+     30.26527,
+     -97.7488,
+     0.712
+    ],
+    [
+     30.26665,
+     -97.7433,
+     0.712
+    ],
+    [
+     30.26939,
+     -97.75017,
+     0.711
+    ],
+    [
+     30.26665,
+     -97.77077,
+     0.704
+    ],
+    [
+     30.25566,
+     -97.7639,
+     0.702
+    ],
+    [
+     30.23094,
+     -97.78725,
+     0.697
+    ],
+    [
+     30.24605,
+     -97.72682,
+     0.694
+    ],
+    [
+     30.26939,
+     -97.75978,
+     0.692
+    ],
+    [
+     30.27077,
+     -97.75017,
+     0.691
+    ],
+    [
+     30.27214,
+     -97.75429,
+     0.689
+    ],
+    [
+     30.23506,
+     -97.86003,
+     0.685
+    ],
+    [
+     30.2639,
+     -97.74193,
+     0.683
+    ],
+    [
+     30.2639,
+     -97.72819,
+     0.68
+    ],
+    [
+     30.18013,
+     -97.7227,
+     0.679
+    ],
+    [
+     30.28175,
+     -97.73781,
+     0.675
+    ],
+    [
+     30.26253,
+     -97.72682,
+     0.675
+    ],
+    [
+     30.29686,
+     -97.70485,
+     0.673
+    ],
+    [
+     30.26527,
+     -97.75566,
+     0.672
+    ],
+    [
+     30.22957,
+     -97.78313,
+     0.668
+    ],
+    [
+     30.20622,
+     -97.74742,
+     0.667
+    ],
+    [
+     30.29549,
+     -97.62108,
+     0.666
+    ],
+    [
+     30.26115,
+     -97.82295,
+     0.664
+    ],
+    [
+     30.26115,
+     -97.74193,
+     0.659
+    ],
+    [
+     30.26939,
+     -97.75154,
+     0.655
+    ],
+    [
+     30.26253,
+     -97.69661,
+     0.646
+    ],
+    [
+     30.27763,
+     -97.77214,
+     0.642
+    ],
+    [
+     30.24468,
+     -97.75154,
+     0.642
+    ],
+    [
+     30.26665,
+     -97.74193,
+     0.634
+    ],
+    [
+     30.25566,
+     -97.76253,
+     0.632
+    ],
+    [
+     30.29411,
+     -97.78587,
+     0.626
+    ],
+    [
+     30.24605,
+     -97.75154,
+     0.626
+    ],
+    [
+     30.24193,
+     -97.72682,
+     0.621
+    ],
+    [
+     30.24605,
+     -97.76939,
+     0.62
+    ],
+    [
+     30.31334,
+     -97.77077,
+     0.618
+    ],
+    [
+     30.31883,
+     -97.73918,
+     0.616
+    ],
+    [
+     30.34355,
+     -97.68562,
+     0.611
+    ],
+    [
+     30.26253,
+     -97.72407,
+     0.607
+    ],
+    [
+     30.19386,
+     -97.77626,
+     0.605
+    ],
+    [
+     30.2021,
+     -97.66914,
+     0.605
+    ],
+    [
+     30.2639,
+     -97.73506,
+     0.602
+    ],
+    [
+     30.27077,
+     -97.7488,
+     0.601
+    ],
+    [
+     30.25978,
+     -97.75429,
+     0.599
+    ],
+    [
+     30.37926,
+     -97.78038,
+     0.589
+    ],
+    [
+     30.27214,
+     -97.75291,
+     0.588
+    ],
+    [
+     30.25566,
+     -97.71858,
+     0.588
+    ],
+    [
+     30.26802,
+     -97.72682,
+     0.587
+    ],
+    [
+     30.35729,
+     -97.86552,
+     0.585
+    ],
+    [
+     30.29411,
+     -97.62108,
+     0.584
+    ],
+    [
+     30.3614,
+     -97.71584,
+     0.581
+    ],
+    [
+     30.43693,
+     -97.75154,
+     0.58
+    ],
+    [
+     30.2488,
+     -97.76939,
+     0.576
+    ],
+    [
+     30.26253,
+     -97.74468,
+     0.568
+    ],
+    [
+     30.26527,
+     -97.74468,
+     0.562
+    ],
+    [
+     30.28313,
+     -97.72133,
+     0.558
+    ],
+    [
+     30.24193,
+     -97.78313,
+     0.557
+    ],
+    [
+     30.27077,
+     -97.83119,
+     0.555
+    ],
+    [
+     30.26115,
+     -97.75978,
+     0.555
+    ],
+    [
+     30.27489,
+     -97.77489,
+     0.55
+    ],
+    [
+     30.24056,
+     -97.78862,
+     0.547
+    ],
+    [
+     30.24605,
+     -97.73094,
+     0.547
+    ],
+    [
+     30.26115,
+     -97.72545,
+     0.546
+    ],
+    [
+     30.31059,
+     -97.74056,
+     0.545
+    ],
+    [
+     30.27763,
+     -97.75154,
+     0.543
+    ],
+    [
+     30.19936,
+     -97.86827,
+     0.542
+    ],
+    [
+     30.2021,
+     -97.66777,
+     0.541
+    ],
+    [
+     30.15266,
+     -97.83394,
+     0.541
+    ],
+    [
+     30.26939,
+     -97.7433,
+     0.54
+    ],
+    [
+     30.26253,
+     -97.72957,
+     0.537
+    ],
+    [
+     30.25566,
+     -97.80785,
+     0.536
+    ],
+    [
+     30.40947,
+     -97.69936,
+     0.533
+    ],
+    [
+     30.4026,
+     -97.72407,
+     0.53
+    ],
+    [
+     30.30785,
+     -97.73094,
+     0.529
+    ],
+    [
+     30.40123,
+     -97.72682,
+     0.528
+    ],
+    [
+     30.25429,
+     -97.71721,
+     0.527
+    ],
+    [
+     30.39162,
+     -97.74742,
+     0.523
+    ],
+    [
+     30.27489,
+     -97.82433,
+     0.521
+    ],
+    [
+     30.25978,
+     -97.75703,
+     0.52
+    ],
+    [
+     30.26939,
+     -97.74056,
+     0.518
+    ],
+    [
+     30.26115,
+     -97.7227,
+     0.517
+    ],
+    [
+     30.2639,
+     -97.7639,
+     0.511
+    ],
+    [
+     30.4438,
+     -97.7845,
+     0.509
+    ],
+    [
+     30.2639,
+     -97.75703,
+     0.506
+    ],
+    [
+     30.2488,
+     -97.77077,
+     0.506
+    ],
+    [
+     30.28999,
+     -97.7076,
+     0.5
+    ],
+    [
+     30.25841,
+     -97.75841,
+     0.499
+    ],
+    [
+     30.35179,
+     -97.79686,
+     0.498
+    ],
+    [
+     30.25291,
+     -97.70073,
+     0.497
+    ],
+    [
+     30.35729,
+     -97.78587,
+     0.496
+    ],
+    [
+     30.25841,
+     -97.7845,
+     0.495
+    ],
+    [
+     30.24056,
+     -97.72819,
+     0.493
+    ],
+    [
+     30.26253,
+     -97.76253,
+     0.485
+    ],
+    [
+     30.43419,
+     -97.69936,
+     0.483
+    ],
+    [
+     30.28038,
+     -97.75841,
+     0.482
+    ],
+    [
+     30.19524,
+     -97.88063,
+     0.48
+    ],
+    [
+     30.24056,
+     -97.75291,
+     0.478
+    ],
+    [
+     30.32158,
+     -97.73918,
+     0.476
+    ],
+    [
+     30.25566,
+     -97.7227,
+     0.463
+    ],
+    [
+     30.26802,
+     -97.76939,
+     0.462
+    ],
+    [
+     30.26665,
+     -97.76115,
+     0.46
+    ],
+    [
+     30.26527,
+     -97.73369,
+     0.45
+    ],
+    [
+     30.30785,
+     -97.73918,
+     0.449
+    ],
+    [
+     30.25566,
+     -97.76802,
+     0.448
+    ],
+    [
+     30.26253,
+     -97.76115,
+     0.447
+    ],
+    [
+     30.25978,
+     -97.74605,
+     0.446
+    ],
+    [
+     30.24742,
+     -97.77489,
+     0.443
+    ],
+    [
+     30.38475,
+     -97.71995,
+     0.441
+    ],
+    [
+     30.2845,
+     -97.71995,
+     0.437
+    ],
+    [
+     30.2488,
+     -97.7488,
+     0.436
+    ],
+    [
+     30.24468,
+     -97.77901,
+     0.434
+    ],
+    [
+     30.2021,
+     -97.67052,
+     0.434
+    ],
+    [
+     30.25841,
+     -97.78175,
+     0.432
+    ],
+    [
+     30.2845,
+     -97.71721,
+     0.431
+    ],
+    [
+     30.3408,
+     -97.73781,
+     0.43
+    ],
+    [
+     30.26665,
+     -97.75017,
+     0.43
+    ],
+    [
+     30.26115,
+     -97.71584,
+     0.429
+    ],
+    [
+     30.23094,
+     -97.79686,
+     0.425
+    ],
+    [
+     30.27489,
+     -97.7639,
+     0.424
+    ],
+    [
+     30.13619,
+     -97.63893,
+     0.423
+    ],
+    [
+     30.2488,
+     -97.73644,
+     0.421
+    ],
+    [
+     30.27077,
+     -97.75291,
+     0.419
+    ],
+    [
+     30.30373,
+     -97.71584,
+     0.417
+    ],
+    [
+     30.44517,
+     -97.7845,
+     0.416
+    ],
+    [
+     30.40672,
+     -97.71995,
+     0.415
+    ],
+    [
+     30.24468,
+     -97.80922,
+     0.413
+    ],
+    [
+     30.25841,
+     -97.71172,
+     0.412
+    ],
+    [
+     30.26802,
+     -97.72819,
+     0.409
+    ],
+    [
+     30.27214,
+     -97.76939,
+     0.402
+    ],
+    [
+     30.2639,
+     -97.74056,
+     0.401
+    ],
+    [
+     30.26939,
+     -97.74742,
+     0.399
+    ],
+    [
+     30.23094,
+     -97.75978,
+     0.398
+    ],
+    [
+     30.25841,
+     -97.7488,
+     0.397
+    ],
+    [
+     30.38475,
+     -97.71584,
+     0.393
+    ],
+    [
+     30.33394,
+     -97.72133,
+     0.391
+    ],
+    [
+     30.40398,
+     -97.72133,
+     0.391
+    ],
+    [
+     30.28038,
+     -97.71995,
+     0.389
+    ],
+    [
+     30.20073,
+     -97.8875,
+     0.389
+    ],
+    [
+     30.23231,
+     -97.76802,
+     0.388
+    ],
+    [
+     30.25154,
+     -97.7076,
+     0.385
+    ],
+    [
+     30.25154,
+     -97.7227,
+     0.383
+    ],
+    [
+     30.28175,
+     -97.75154,
+     0.383
+    ],
+    [
+     30.3051,
+     -97.7433,
+     0.38
+    ],
+    [
+     30.26665,
+     -97.75154,
+     0.379
+    ],
+    [
+     30.26527,
+     -97.74056,
+     0.375
+    ],
+    [
+     30.39848,
+     -97.72545,
+     0.371
+    ],
+    [
+     30.26665,
+     -97.73369,
+     0.369
+    ],
+    [
+     30.23644,
+     -97.79137,
+     0.369
+    ],
+    [
+     30.27489,
+     -97.75154,
+     0.367
+    ],
+    [
+     30.25429,
+     -97.7639,
+     0.366
+    ],
+    [
+     30.46028,
+     -97.78999,
+     0.365
+    ],
+    [
+     30.2433,
+     -97.75154,
+     0.364
+    ],
+    [
+     30.26115,
+     -97.7845,
+     0.359
+    ],
+    [
+     30.2488,
+     -97.81334,
+     0.358
+    ],
+    [
+     30.1609,
+     -97.79137,
+     0.355
+    ],
+    [
+     30.18425,
+     -97.83119,
+     0.354
+    ],
+    [
+     30.23369,
+     -97.72819,
+     0.348
+    ],
+    [
+     30.26527,
+     -97.75154,
+     0.345
+    ],
+    [
+     30.23644,
+     -97.76253,
+     0.345
+    ],
+    [
+     30.16228,
+     -97.80785,
+     0.341
+    ],
+    [
+     30.28862,
+     -97.67326,
+     0.341
+    ],
+    [
+     30.35866,
+     -97.73506,
+     0.338
+    ],
+    [
+     30.28038,
+     -97.72957,
+     0.336
+    ],
+    [
+     30.2076,
+     -97.81471,
+     0.335
+    ],
+    [
+     30.35454,
+     -97.72682,
+     0.334
+    ],
+    [
+     30.17189,
+     -97.7433,
+     0.333
+    ],
+    [
+     30.24056,
+     -97.78587,
+     0.333
+    ],
+    [
+     30.25291,
+     -97.7488,
+     0.332
+    ],
+    [
+     30.30922,
+     -97.71584,
+     0.332
+    ],
+    [
+     30.28175,
+     -97.74056,
+     0.331
+    ],
+    [
+     30.24742,
+     -97.75154,
+     0.328
+    ],
+    [
+     30.47127,
+     -97.80785,
+     0.328
+    ],
+    [
+     30.25154,
+     -97.76527,
+     0.325
+    ],
+    [
+     30.25291,
+     -97.74742,
+     0.324
+    ],
+    [
+     30.30647,
+     -97.71584,
+     0.323
+    ],
+    [
+     30.26802,
+     -97.74468,
+     0.322
+    ],
+    [
+     30.2488,
+     -97.75566,
+     0.32
+    ],
+    [
+     30.28587,
+     -97.72957,
+     0.319
+    ],
+    [
+     30.2845,
+     -97.71858,
+     0.317
+    ],
+    [
+     30.32982,
+     -97.74056,
+     0.315
+    ],
+    [
+     30.27351,
+     -97.71995,
+     0.315
+    ],
+    [
+     30.27626,
+     -97.77351,
+     0.315
+    ],
+    [
+     30.23369,
+     -97.71995,
+     0.308
+    ],
+    [
+     30.24468,
+     -97.76253,
+     0.307
+    ],
+    [
+     30.2639,
+     -97.76665,
+     0.307
+    ],
+    [
+     30.18562,
+     -97.80098,
+     0.306
+    ],
+    [
+     30.29823,
+     -97.70485,
+     0.305
+    ],
+    [
+     30.39574,
+     -97.72682,
+     0.304
+    ],
+    [
+     30.25154,
+     -97.7639,
+     0.304
+    ],
+    [
+     30.34218,
+     -97.89024,
+     0.303
+    ],
+    [
+     30.28313,
+     -97.74605,
+     0.3
+    ],
+    [
+     30.39436,
+     -97.72682,
+     0.299
+    ],
+    [
+     30.32982,
+     -97.69112,
+     0.297
+    ],
+    [
+     30.25154,
+     -97.7021,
+     0.296
+    ],
+    [
+     30.28725,
+     -97.70348,
+     0.295
+    ],
+    [
+     30.27351,
+     -97.75703,
+     0.295
+    ],
+    [
+     30.24742,
+     -97.77077,
+     0.286
+    ],
+    [
+     30.31197,
+     -97.77489,
+     0.286
+    ],
+    [
+     30.26527,
+     -97.73506,
+     0.284
+    ],
+    [
+     30.32844,
+     -97.67189,
+     0.283
+    ],
+    [
+     30.2639,
+     -97.76253,
+     0.278
+    ],
+    [
+     30.25291,
+     -97.71034,
+     0.277
+    ],
+    [
+     30.34218,
+     -97.74468,
+     0.275
+    ],
+    [
+     30.25017,
+     -97.72682,
+     0.273
+    ],
+    [
+     30.26527,
+     -97.74193,
+     0.271
+    ],
+    [
+     30.2845,
+     -97.73644,
+     0.271
+    ],
+    [
+     30.39436,
+     -97.71995,
+     0.27
+    ],
+    [
+     30.26253,
+     -97.7433,
+     0.267
+    ],
+    [
+     30.26115,
+     -97.70348,
+     0.267
+    ],
+    [
+     30.26253,
+     -97.75291,
+     0.267
+    ],
+    [
+     30.25017,
+     -97.75566,
+     0.265
+    ],
+    [
+     30.36964,
+     -97.72133,
+     0.259
+    ],
+    [
+     30.39986,
+     -97.72682,
+     0.259
+    ],
+    [
+     30.23644,
+     -97.79274,
+     0.256
+    ],
+    [
+     30.31746,
+     -97.72133,
+     0.255
+    ],
+    [
+     30.34492,
+     -97.73644,
+     0.254
+    ],
+    [
+     30.25703,
+     -97.75978,
+     0.247
+    ],
+    [
+     30.2433,
+     -97.74193,
+     0.244
+    ],
+    [
+     30.25429,
+     -97.71858,
+     0.242
+    ],
+    [
+     30.25703,
+     -97.73918,
+     0.241
+    ],
+    [
+     30.3257,
+     -97.7433,
+     0.237
+    ],
+    [
+     30.50835,
+     -97.77077,
+     0.237
+    ],
+    [
+     30.23506,
+     -97.75841,
+     0.236
+    ],
+    [
+     30.40535,
+     -97.71995,
+     0.235
+    ],
+    [
+     30.35317,
+     -97.71584,
+     0.235
+    ],
+    [
+     30.25841,
+     -97.78725,
+     0.231
+    ],
+    [
+     30.23506,
+     -97.74193,
+     0.226
+    ],
+    [
+     30.2639,
+     -97.75429,
+     0.221
+    ],
+    [
+     30.27626,
+     -97.75841,
+     0.221
+    ],
+    [
+     30.39986,
+     -97.7227,
+     0.22
+    ],
+    [
+     30.25841,
+     -97.72682,
+     0.217
+    ],
+    [
+     30.2227,
+     -97.84081,
+     0.216
+    ],
+    [
+     30.31197,
+     -97.73918,
+     0.215
+    ],
+    [
+     30.29961,
+     -97.76939,
+     0.214
+    ],
+    [
+     30.39299,
+     -97.74742,
+     0.211
+    ],
+    [
+     30.25291,
+     -97.7639,
+     0.211
+    ],
+    [
+     30.2433,
+     -97.882,
+     0.21
+    ],
+    [
+     30.2639,
+     -97.74605,
+     0.208
+    ],
+    [
+     30.3875,
+     -97.73369,
+     0.207
+    ],
+    [
+     30.29137,
+     -97.74193,
+     0.205
+    ],
+    [
+     30.27077,
+     -97.75154,
+     0.204
+    ],
+    [
+     30.38063,
+     -97.71309,
+     0.203
+    ],
+    [
+     30.27214,
+     -97.76115,
+     0.202
+    ],
+    [
+     30.3257,
+     -97.71721,
+     0.199
+    ],
+    [
+     30.34492,
+     -97.70485,
+     0.197
+    ],
+    [
+     30.29823,
+     -97.74056,
+     0.196
+    ],
+    [
+     30.26939,
+     -97.74468,
+     0.196
+    ],
+    [
+     30.25154,
+     -97.76665,
+     0.196
+    ],
+    [
+     30.27901,
+     -97.72682,
+     0.195
+    ],
+    [
+     30.27214,
+     -97.73918,
+     0.192
+    ],
+    [
+     30.27077,
+     -97.74193,
+     0.192
+    ],
+    [
+     30.3257,
+     -97.7021,
+     0.192
+    ],
+    [
+     30.24468,
+     -97.75703,
+     0.192
+    ],
+    [
+     30.40123,
+     -97.73781,
+     0.191
+    ],
+    [
+     30.2639,
+     -97.76939,
+     0.189
+    ],
+    [
+     30.33119,
+     -97.74056,
+     0.186
+    ],
+    [
+     30.31334,
+     -97.71446,
+     0.186
+    ],
+    [
+     30.32707,
+     -97.92595,
+     0.185
+    ],
+    [
+     30.21034,
+     -97.7845,
+     0.183
+    ],
+    [
+     30.27077,
+     -97.75841,
+     0.181
+    ],
+    [
+     30.37239,
+     -97.72819,
+     0.181
+    ],
+    [
+     30.33668,
+     -97.75841,
+     0.179
+    ],
+    [
+     30.27077,
+     -97.75566,
+     0.178
+    ],
+    [
+     30.25841,
+     -97.72819,
+     0.175
+    ],
+    [
+     30.37926,
+     -97.72957,
+     0.173
+    ],
+    [
+     30.39574,
+     -97.72819,
+     0.172
+    ],
+    [
+     30.29686,
+     -97.76802,
+     0.17
+    ],
+    [
+     30.23094,
+     -97.80098,
+     0.168
+    ],
+    [
+     30.40398,
+     -97.72407,
+     0.167
+    ],
+    [
+     30.17326,
+     -97.78587,
+     0.166
+    ],
+    [
+     30.23506,
+     -97.87788,
+     0.164
+    ],
+    [
+     30.31883,
+     -97.76115,
+     0.163
+    ],
+    [
+     30.44792,
+     -97.78725,
+     0.162
+    ],
+    [
+     30.27077,
+     -97.73918,
+     0.161
+    ],
+    [
+     30.23781,
+     -97.73918,
+     0.16
+    ],
+    [
+     30.28038,
+     -97.76253,
+     0.16
+    ],
+    [
+     30.37651,
+     -97.85042,
+     0.16
+    ],
+    [
+     30.27489,
+     -97.71995,
+     0.159
+    ],
+    [
+     30.37376,
+     -97.73094,
+     0.158
+    ],
+    [
+     30.22957,
+     -97.72957,
+     0.158
+    ],
+    [
+     30.25703,
+     -97.78862,
+     0.157
+    ],
+    [
+     30.28725,
+     -97.7488,
+     0.156
+    ],
+    [
+     30.3257,
+     -97.7076,
+     0.155
+    ],
+    [
+     30.31883,
+     -97.82021,
+     0.155
+    ],
+    [
+     30.28038,
+     -97.75978,
+     0.155
+    ],
+    [
+     30.30647,
+     -97.73506,
+     0.155
+    ],
+    [
+     30.26665,
+     -97.7488,
+     0.149
+    ],
+    [
+     30.32295,
+     -97.70897,
+     0.145
+    ],
+    [
+     30.32707,
+     -97.71584,
+     0.145
+    ],
+    [
+     30.35729,
+     -97.73231,
+     0.145
+    ],
+    [
+     30.2639,
+     -97.73369,
+     0.144
+    ],
+    [
+     30.2488,
+     -97.79549,
+     0.144
+    ],
+    [
+     30.26115,
+     -97.75703,
+     0.144
+    ],
+    [
+     30.39162,
+     -97.75017,
+     0.143
+    ],
+    [
+     30.25703,
+     -97.80785,
+     0.143
+    ],
+    [
+     30.22133,
+     -97.84081,
+     0.142
+    ],
+    [
+     30.25703,
+     -97.72407,
+     0.141
+    ],
+    [
+     30.21858,
+     -97.77214,
+     0.14
+    ],
+    [
+     30.25154,
+     -97.75429,
+     0.139
+    ],
+    [
+     30.3051,
+     -97.74468,
+     0.136
+    ],
+    [
+     30.35454,
+     -97.73369,
+     0.134
+    ],
+    [
+     30.33943,
+     -97.82021,
+     0.133
+    ],
+    [
+     30.28587,
+     -97.74193,
+     0.13
+    ]
+   ]
+  },
+  "promotion": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "3B073BD1-C356-40C6-BCAD-45C3D062D4A7",
+     "name": "Couple Things with Shawn and Andrew",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/3B073BD1-C356-40C6-BCAD-45C3D062D4A7-420x-auto.jpg",
+     "website": null,
+     "description": "Shawn Johnson and Andrew East share vulnerable stories and memorable moments from their lives as a celebrated couple.",
+     "tags": [
+      "Podcasts",
+      "Society & Culture"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Animal Rescue, Marley & Me",
+      "affinity": 0.921,
+      "popularity": 0.995,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    },
+    {
+     "id": "41EA7656-E112-4C04-B208-00C54E3F5515",
+     "name": "Dog with a Blog",
+     "kind": "tv_show",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/41EA7656-E112-4C04-B208-00C54E3F5515-420x-auto.jpg",
+     "website": null,
+     "description": "Dog with a Blog (2012–2015) is an American family comedy series starring Genevieve Hannelius, Blake Michael, and Francesca Capaldi, with a speaking dog at the center of the premise. The show follows a blended family that adopts a dog who ca",
+     "tags": [
+      "Animal in title",
+      "Playful",
+      "Coming of age",
+      "High concept comedy",
+      "Disney channel",
+      "Quirky"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Dogs, Animal Rescue, Marley & Me",
+      "affinity": 0.918,
+      "popularity": 0.666,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "tv_show"
+    },
+    {
+     "id": "F1CDD9CA-E67B-42CD-BBB7-4D1203B4505D",
+     "name": "Sibling Revelry with Kate Hudson and Oliver Hudson",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/F1CDD9CA-E67B-42CD-BBB7-4D1203B4505D-420x-auto.jpg",
+     "website": null,
+     "description": "Exploring sibling bonds and family dynamics through relaxed conversations and universal tales of growing up with brothers and sisters.",
+     "tags": [
+      "Podcasts",
+      "Health & Fitness",
+      "Relationships",
+      "Society & Culture",
+      "Mental Health"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Animal Rescue, Marley & Me",
+      "affinity": 0.916,
+      "popularity": 0.978,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    },
+    {
+     "id": "896569D9-5588-4435-8D77-892163E93088",
+     "name": "All of Us",
+     "kind": "tv_show",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/896569D9-5588-4435-8D77-892163E93088-420x-auto.jpg",
+     "website": null,
+     "description": "All of Us (premiered 2003) is an American sitcom created and executive produced in part by Will Smith and Jada Pinkett Smith with Betsy Borns and Warner Bros. Television. The series stars Duane Martin, LisaRaye McCoy, and Khamani Griffin an",
+     "tags": [
+      "Nostalgic",
+      "Divorce",
+      "Reconciliation",
+      "Son",
+      "Lighthearted",
+      "Co parenting"
+     ],
+     "popularity_tier": "grassroots",
+     "evidence": {
+      "signal": "Dogs, Animal Rescue, Marley & Me",
+      "affinity": 0.918,
+      "popularity": 0.044,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "tv_show"
+    },
+    {
+     "id": "899BD105-21FC-4918-AE45-D9F605DD36E9",
+     "name": "The Viall Files",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/899BD105-21FC-4918-AE45-D9F605DD36E9-420x-auto.jpg",
+     "website": null,
+     "description": "A podcast exploring dating, relationships, pop culture, and reality TV with advice, recaps, and celebrity interviews.",
+     "tags": [
+      "TV & Film",
+      "After Shows",
+      "Society & Culture",
+      "Relationships",
+      "Podcasts"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Dogs, Animal Rescue, Marley & Me",
+      "affinity": 0.906,
+      "popularity": 0.995,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Dogs, Animal Rescue, Marley & Me"
+  }
+ },
+ "plan": {
+  "event_name": "Senior Paws & Good Vibes",
+  "tagline": "A joyful Austin gathering for senior dogs in need of a forever home.",
+  "concept": "Host an outdoor adoption social at Austin Taco Project with food, drinks, and a relaxed atmosphere for supporters of animal rescue. Pair the afternoon with a live set by Seedless and spotlight the shelter’s senior-dog adoption program.",
+  "format": "Saturday afternoon outdoor social with live music, food, adoption activities, and a 3-hour program",
+  "date_window": "Saturday in March, 2025",
+  "taste_summary": "Supporters enjoy Dogs, Animal Rescue, and Adoption, with a strong connection to Marley & Me. The event should feel heartfelt, social, and practical while making senior dogs the focus.",
+  "headline_venue_id": "519C731D-6559-4719-8D29-93200985917A",
+  "headline_performer_id": "4D4F33CC-6A7F-43BD-8C98-8596C7D2B477",
+  "reasons": {
+   "519C731D-6559-4719-8D29-93200985917A": "Casual patio setting, tacos, beer, and bar service suit a 150-guest adoption social.",
+   "4D4F33CC-6A7F-43BD-8C98-8596C7D2B477": "Its soulful, loyal sound supports a warm community event with an upbeat focus."
+  },
+  "run_of_show": [
+   {
+    "time": "1:00 PM",
+    "title": "Doors open and check-in",
+    "detail": "Guests arrive, receive a welcome drink, and meet adoptable senior dogs."
+   },
+   {
+    "time": "1:30 PM",
+    "title": "Welcome and mission moment",
+    "detail": "The shelter shares its senior-dog rehoming goals and introduces available dogs."
+   },
+   {
+    "time": "1:50 PM",
+    "title": "Adoption fair begins",
+    "detail": "Guests spend time with senior dogs and speak with shelter representatives."
+   },
+   {
+    "time": "2:30 PM",
+    "title": "Live music set",
+    "detail": "Seedless performs an upbeat set while guests enjoy tacos and drinks."
+   },
+   {
+    "time": "3:15 PM",
+    "title": "Stories and donation appeal",
+    "detail": "The program highlights senior-dog stories and invites guests to support adoption and care."
+   },
+   {
+    "time": "3:45 PM",
+    "title": "Closing adoption hour",
+    "detail": "Final introductions, adoption follow-up, and a thank-you to guests and supporters."
+   }
+  ],
+  "promotion_angles": [
+   {
+    "id": "3B073BD1-C356-40C6-BCAD-45C3D062D4A7",
+    "angle": "Invite podcast listeners to a joyful adoption social centered on senior dogs and community connection."
+   },
+   {
+    "id": "41EA7656-E112-4C04-B208-00C54E3F5515",
+    "angle": "Use the playful animal-focused show to promote an afternoon where guests can meet adoptable dogs."
+   },
+   {
+    "id": "F1CDD9CA-E67B-42CD-BBB7-4D1203B4505D",
+    "angle": "Invite podcast listeners to spend a relaxed Saturday supporting rescue and finding senior dogs a home."
+   }
+  ],
+  "sponsor_pitch": {
+   "subject": "Bring your community together for senior dogs in March",
+   "opening": "Senior Paws & Good Vibes is a March adoption social for an Austin animal rescue shelter that rehomes senior dogs. The afternoon combines food, music, and meaningful introductions with adoptable dogs.",
+   "audience": "The event audience is drawn to Dogs, Animal Rescue, and Adoption, including supporters connected to Marley & Me. It also aligns naturally with pet-focused brands and local businesses such as Petco, Petsmart, American Kennel Club, and Woof Gang Bakery & Grooming Austin.",
+   "benefits": [
+    "Showcase your business to 150 local supporters",
+    "Connect with pet-focused community members",
+    "Support senior-dog rehoming and adoption",
+    "Gain positive visibility through event promotion"
+   ],
+   "ask": "Please consider supporting the event with a contribution, in-kind goods, or promotion that helps more senior dogs find loving homes."
+  }
+ },
+ "baseline": {
+  "status": "ok",
+  "model": "minimax/minimax-m3.1-flash:free",
+  "event_name": "Marley & Me Senior Dog Celebration",
+  "concept": "A March fundraiser celebrating senior dogs with an adoptable-dog meet-and-greet and Marley-inspired movie-night atmosphere. Proceeds support medical care, food, and comfortable homes for rescued seniors.",
+  "venues": [
+   {
+    "name": "Alamo Drafthouse Cinema",
+    "reason": "Central location, movie theme, and space for 150 guests"
+   },
+   {
+    "name": "Violet Crown Social",
+    "reason": "Pet-friendly gathering space with a warm, community feel"
+   },
+   {
+    "name": "The Long Center",
+    "reason": "Affordable downtown venue with flexible event space"
+   },
+   {
+    "name": "Zilker Park Pavilion",
+    "reason": "Low-cost outdoor setting for an approachable dog festival"
+   }
+  ],
+  "performers": [
+   {
+    "name": "Austin Senior Dog Rescue Choir",
+    "reason": "Local singers can perform a heartwarming, shelter-themed set"
+   },
+   {
+    "name": "Blue Moon Players",
+    "reason": "Austin theater group adds affordable live entertainment"
+   },
+   {
+    "name": "DJ Harper",
+    "reason": "Provides upbeat music and keeps costs modest"
+   },
+   {
+    "name": "Canine Comedy Theater Troupe",
+    "reason": "Humorous dog-centered acts engage families and supporters"
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Natural Balance Pet Foods",
+    "reason": "Natural food brand aligned with canine nutrition"
+   },
+   {
+    "name": "Austin Pet Supply",
+    "reason": "Local business can donate supplies and raffle items"
+   },
+   {
+    "name": "Hill Country Animal Clinic",
+    "reason": "Veterinary partner offering senior-dog health support"
+   },
+   {
+    "name": "Barkley Austin",
+    "reason": "Local lifestyle brand can promote the fundraiser"
+   }
+  ],
+  "promotion": [
+   {
+    "name": "Austin Pet Adoption Events Calendar",
+    "reason": "Reaches residents actively seeking pets and support"
+   },
+   {
+    "name": "Local Animal Rescue Social Media Groups",
+    "reason": "Targeted community channels can boost attendance"
+   },
+   {
+    "name": "Austin Lifestyle Bloggers",
+    "reason": "Family-focused influencers can generate awareness"
+   },
+   {
+    "name": "Neighborhood Veterinary Partnerships",
+    "reason": "Clinics and groomers can share event invitations"
+   }
+  ]
+ },
+ "grounding": {
+  "checked": 10,
+  "verified": [
+   "American Kennel Club",
+   "Austin Taco Project",
+   "Couple Things with Shawn and Andrew",
+   "Dog with a Blog",
+   "Marley & Me",
+   "Petco",
+   "Petsmart",
+   "Seedless",
+   "Sibling Revelry with Kate Hudson and Oliver Hudson",
+   "Woof Gang Bakery & Grooming Austin"
+  ],
+  "removed": [],
+  "picks": 27
+ },
+ "agent_log": [
+  {
+   "step": "understand",
+   "label": "Understanding your cause",
+   "status": "done",
+   "message": "Keywords: senior dogs, animal rescue, dog shelter, rehoming, adoption",
+   "notes": []
+  },
+  {
+   "step": "tags",
+   "label": "Finding and testing taste tags",
+   "status": "done",
+   "message": "Taste tags: Dogs",
+   "notes": [
+    "Qloo tag search returned 39 candidate tags for 5 keywords.",
+    "AI proposed: Dogs, Adoption, Animal fiction.",
+    "Tested 'Dogs': top Austin places score 0.97.",
+    "Tested 'Adoption': Qloo ignored it in Austin (no ranking). Dropped.",
+    "Tested 'Animal fiction': Qloo ignored it in Austin (no ranking). Dropped.",
+    "Kept 'Dogs': strongest Qloo ranking."
+   ]
+  },
+  {
+   "step": "interests",
+   "label": "Matching supporter interests",
+   "status": "done",
+   "message": "Matched: Marley & Me",
+   "notes": [
+    "'Marley & Me' matched Qloo movie 'Marley & Me'."
+   ]
+  },
+  {
+   "step": "venues",
+   "label": "Scouting venues",
+   "status": "done",
+   "message": "6 venues shortlisted from 35 places",
+   "notes": [
+    "Pulled 20 event-type places and 15 more top matches in Austin.",
+    "AI screened 35 places for event fit and guest count; kept 6. Passed over: Woof Gang Bakery & Grooming Austin, YETI, Yummi Joy."
+   ]
+  },
+  {
+   "step": "performers",
+   "label": "Finding performers",
+   "status": "done",
+   "message": "5 performers in the modest popularity band",
+   "notes": [
+    "Modest budget → popularity band 0.30-0.80 (popularity as a fee proxy).",
+    "Qloo ignores the city filter for artists (kill test #2), so these are taste matches, not local acts."
+   ]
+  },
+  {
+   "step": "sponsors",
+   "label": "Spotting local sponsors",
+   "status": "done",
+   "message": "5 local businesses, 3 brands",
+   "notes": []
+  },
+  {
+   "step": "neighborhoods",
+   "label": "Mapping the best neighborhoods",
+   "status": "done",
+   "message": "Top areas: Downtown, Gateway, Cherrywood",
+   "notes": [
+    "Aggregated 638 heatmap cells into 6 candidate hotspots.",
+    "Dropped a hotspot with no Qloo neighborhood name nearby (never guessed)."
+   ]
+  },
+  {
+   "step": "promotion",
+   "label": "Planning promotion channels",
+   "status": "done",
+   "message": "5 podcasts and shows for outreach",
+   "notes": []
+  },
+  {
+   "step": "compose",
+   "label": "Writing your event plan",
+   "status": "done",
+   "message": "Plan written",
+   "notes": [
+    "AI wrote the plan from Qloo data only, naming picks by id (V1, P2...)."
+   ]
+  },
+  {
+   "step": "verify",
+   "label": "Checking every name against Qloo",
+   "status": "done",
+   "message": "Checked 10 names the AI wrote: 10 verified, 0 removed",
+   "notes": [
+    "Verified: American Kennel Club, Austin Taco Project, Couple Things with Shawn and Andrew, Dog with a Blog, Marley & Me, Petco and 4 more.",
+    "All 27 picks on the page come straight from Qloo responses."
+   ]
+  },
+  {
+   "step": "baseline",
+   "label": "Drafting a generic AI plan for comparison",
+   "status": "done",
+   "message": "Generic plan ready",
+   "notes": [
+    "Same inputs, no Qloo data: its names are unverified and shown labeled 'no data'."
+   ]
+  }
+ ],
+ "data_notes": [
+  "Performers: Matched on taste, not location: Qloo's artist insights ignore the city filter, so check availability."
+ ],
+ "meta": {
+  "seconds": 38.7,
+  "models": [
+   "minimax/minimax-m3.1-flash:free"
+  ],
+  "llm_fallbacks": []
+ }
+}

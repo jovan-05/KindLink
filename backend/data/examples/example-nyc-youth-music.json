@@ -1,0 +1,3196 @@
+{
+ "id": "example-nyc-youth-music",
+ "created_at": "2026-10-21T15:58:07.521158+00:00",
+ "inputs": {
+  "cause": "Free after-school music school teaching instruments to young people",
+  "city": "New York",
+  "guests": 200,
+  "budget": "generous",
+  "month": "October",
+  "interests": [
+   "School of Rock"
+  ]
+ },
+ "profile": {
+  "keywords": [
+   "music education",
+   "youth music",
+   "instruments",
+   "after-school programs",
+   "children"
+  ],
+  "taste_tags": [
+   {
+    "id": "urn:tag:genre:media:music",
+    "name": "Music",
+    "type": "urn:tag:genre:media",
+    "popularity": 0.9999451
+   }
+  ],
+  "keyword_tags": [
+   {
+    "id": "urn:tag:keyword:qloo:music_education",
+    "name": "Music education",
+    "type": "urn:tag:keyword:qloo",
+    "popularity": 0.38794795
+   }
+  ],
+  "org_tags": [
+   {
+    "id": "urn:tag:category:place:music_school",
+    "name": "Music school",
+    "type": "urn:tag:category:place",
+    "popularity": 0.99962974
+   },
+   {
+    "id": "urn:tag:category:place:after_school_program",
+    "name": "After school program",
+    "type": "urn:tag:category:place",
+    "popularity": 0.9994558
+   },
+   {
+    "id": "urn:tag:category:place:youth_organization",
+    "name": "Youth organization",
+    "type": "urn:tag:category:place",
+    "popularity": 0.9992463
+   }
+  ],
+  "interests": [
+   {
+    "id": "FA0BEB00-7FDC-4FF7-8A3D-22B8FB0477FA",
+    "name": "School of Rock",
+    "type": "urn:entity:movie"
+   }
+  ],
+  "unresolved_interests": []
+ },
+ "sections": {
+  "venues": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "99B2C835-DFCD-4A70-9C1F-ABD95684F2EC",
+     "name": "Texas Arizona",
+     "kind": "place",
+     "address": "76 River St Hoboken, NJ 07030",
+     "neighborhood": null,
+     "lat": 40.736064,
+     "lon": -74.0294347,
+     "image": "https://images.qloo.com/i/99B2C835-DFCD-4A70-9C1F-ABD95684F2EC-420x-auto.jpg",
+     "website": "https://www.texasarizona.com/",
+     "description": "Sprawling local sports bar popular with a younger crowd for casual drinks, happy hour, and watching games on large TVs.",
+     "tags": [
+      "Happy hour specials",
+      "High energy",
+      "Casual",
+      "Evening",
+      "Wings",
+      "Restaurant"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.903,
+      "popularity": 0.985,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": "Sprawling sports bar accommodates a large casual crowd with drinks, food, and large TVs."
+    },
+    {
+     "id": "49849637-7557-4B2F-BD69-5A87EA005DC9",
+     "name": "Blue Haven East",
+     "kind": "place",
+     "address": "493 3rd Ave New York, NY 10016",
+     "neighborhood": "Kips Bay",
+     "lat": 40.745166,
+     "lon": -73.97815899999999,
+     "image": "https://images.qloo.com/i/49849637-7557-4B2F-BD69-5A87EA005DC9-420x-auto.jpg",
+     "website": "https://bluehaveneast.com/",
+     "description": "Upscale NYC sports bar and gastropub serving modern pub fare, craft draughts, cocktails, televised sports, darts, and private-event space.",
+     "tags": [
+      "Bh burger",
+      "Private event room",
+      "Evening",
+      "Private events",
+      "Restroom",
+      "Urban"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.902,
+      "popularity": 0.76,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": "Explicit private event room in an upscale sports bar suits 200 guests with food, drinks, and darts."
+    },
+    {
+     "id": "67B3DFCF-2818-4E4F-9A44-00B626B40885",
+     "name": "Doc Holliday's",
+     "kind": "place",
+     "address": "141 Avenue A New York, NY 10009",
+     "neighborhood": "East Village",
+     "lat": 40.72726,
+     "lon": -73.98299,
+     "image": "https://images.qloo.com/i/67B3DFCF-2818-4E4F-9A44-00B626B40885-420x-auto.jpg",
+     "website": "http://www.instagram.com/dochollidaysnyc",
+     "description": "Texas roadhouse-style East Village bar with biker bartenders, country music, and affordable drinks and food.",
+     "tags": [
+      "Delivery",
+      "Private dining",
+      "Party goers",
+      "City center",
+      "Routine visit",
+      "Restaurant"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.901,
+      "popularity": 0.918,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": "Private dining, country music, and affordable food and drinks create a lively fundraising atmosphere."
+    },
+    {
+     "id": "9AC3D1C4-9851-4228-B194-892F845B1C41",
+     "name": "DoubleTree by Hilton Hotel New York Times Square West",
+     "kind": "place",
+     "address": "350 W 40th St New York, NY 10018",
+     "neighborhood": "Garment District",
+     "lat": 40.7566361,
+     "lon": -73.9930715,
+     "image": "https://images.qloo.com/i/9AC3D1C4-9851-4228-B194-892F845B1C41-420x-auto.jpg",
+     "website": "https://www.hilton.com/en/hotels/nycswdt-doubletree-new-york-times-square-west/?SEO_id=GMB-AMER-DT-NYCSWDT",
+     "description": "Modern upscale hotel near Times Square with rooftop bar, city views, and convenient subway access.",
+     "tags": [
+      "Convenient",
+      "Free wi fi",
+      "Times square",
+      "Safe",
+      "Room service",
+      "Modern"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.899,
+      "popularity": 0.992,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": "Modern Times Square hotel with rooftop bar, room service, and convenient access for 200 guests."
+    },
+    {
+     "id": "0A6018BB-1AA5-4277-8E1A-22D208B0A845",
+     "name": "Playwright Celtic Pub",
+     "kind": "place",
+     "address": "732 8th Ave New York, NY 10036",
+     "neighborhood": "Theater District",
+     "lat": 40.759381,
+     "lon": -73.98803199999999,
+     "image": "https://images.qloo.com/i/0A6018BB-1AA5-4277-8E1A-22D208B0A845-420x-auto.jpg",
+     "website": "http://playwrightcelticpubnyc.com/",
+     "description": "Sprawling four-story Irish pub with rooftop deck, live music, TVs and pub grub in the Times Square theater district.",
+     "tags": [
+      "Coffee and tea",
+      "Dinner",
+      "Debit cards",
+      "Birthday",
+      "Paid parking lot",
+      "Bar service"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.897,
+      "popularity": 0.983,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": "Sprawling pub offers live music, rooftop space, and ample food and bar service for 200."
+    },
+    {
+     "id": "1DEBB8C0-D430-4A8D-81C1-34EEF53B699E",
+     "name": "Apollo Theater",
+     "kind": "place",
+     "address": "233 W 125th St 3rd Floor New York, NY 10027",
+     "neighborhood": "Harlem",
+     "lat": 40.8099273,
+     "lon": -73.9501348,
+     "image": "https://images.qloo.com/i/1DEBB8C0-D430-4A8D-81C1-34EEF53B699E-420x-auto.jpg",
+     "website": "https://www.apollotheater.org/",
+     "description": "Historic Harlem music hall showcasing legendary performers and emerging talent through concerts, Amateur Night, exhibitions, and community programs.",
+     "tags": [
+      "Classic",
+      "Comedy shows",
+      "Wheelchair accessible seating",
+      "Accessibility features",
+      "City center",
+      "Performing arts"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.889,
+      "popularity": 1.0,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": "Historic Harlem music hall provides a fitting performance setting and accessible seating for guests."
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Music, School of Rock"
+  },
+  "performers": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "DB92A206-B059-45A0-A898-C50F274DBC52",
+     "name": "Joe Perry",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/DB92A206-B059-45A0-A898-C50F274DBC52-420x-auto.jpg",
+     "website": null,
+     "description": "Joe Perry is an American musician best known as the lead guitarist and founding member of the rock band Aerosmith. He is renowned for his blues-influenced hard rock guitar playing and songwriting contributions to the band. Perry has also pu",
+     "tags": [
+      "Chuck Berry",
+      "Heavy Metal",
+      "Guitar",
+      "Eric Clapton",
+      "Charismatic",
+      "Powerful"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.928,
+      "popularity": 0.891,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "EBB5649F-50AF-405D-BF60-FB6FC0925C1E",
+     "name": "Nick Mason",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/EBB5649F-50AF-405D-BF60-FB6FC0925C1E-420x-auto.jpg",
+     "website": null,
+     "description": "Nick Mason is an English drummer, best known as a founding member of the progressive rock band Pink Floyd. He is the only member to have appeared on every Pink Floyd album, contributing to the band's unique sound with his innovative drummin",
+     "tags": [
+      "Precise",
+      "Psychedelic Rock",
+      "Art Rock",
+      "Psychedelic Rock",
+      "Charlie Watts",
+      "Innovative"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.924,
+      "popularity": 0.829,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "52BE71D6-15FB-473F-89AB-6C3E5345EB4C",
+     "name": "The Suburbs",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/52BE71D6-15FB-473F-89AB-6C3E5345EB4C-420x-auto.jpg",
+     "website": null,
+     "description": "The Suburbs are an American new wave and post-punk band formed in Minneapolis, Minnesota, in the late 1970s. Known for their energetic and eclectic sound, they blend elements of punk, pop, and synth-driven music. Their lyrics often explore ",
+     "tags": [
+      "Post Punk",
+      "Rock",
+      "New Wave",
+      "Nostalgic",
+      "Dynamic",
+      "Synthpop"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.919,
+      "popularity": 0.771,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "D2668A4E-9E36-4FB7-B4E6-50EAA0B66067",
+     "name": "Tyler Bryant & The Shakedown",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/D2668A4E-9E36-4FB7-B4E6-50EAA0B66067-420x-auto.jpg",
+     "website": null,
+     "description": "Tyler Bryant & The Shakedown is an American blues rock band formed in Nashville, Tennessee. The group is known for its energetic live performances and a gritty, guitar-driven sound that blends blues rock, hard rock, and southern rock influe",
+     "tags": [
+      "Dynamic",
+      "Dedicated",
+      "The Rolling Stones",
+      "Contemporary Hard Rock",
+      "Stevie Ray Vaughan",
+      "Blues Rock"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.919,
+      "popularity": 0.867,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "3C0434AD-C28E-4DE9-B9FA-05EBC6260714",
+     "name": "Country Joe McDonald",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/3C0434AD-C28E-4DE9-B9FA-05EBC6260714-420x-auto.jpg",
+     "website": null,
+     "description": "Country Joe McDonald is an American singer-songwriter and musician best known for his work as the lead singer of the 1960s psychedelic rock group Country Joe and the Fish. He is renowned for his protest songs against the Vietnam War, partic",
+     "tags": [
+      "Charismatic",
+      "Engaging",
+      "Countercultural",
+      "Peace",
+      "Engaged",
+      "Counterculture"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.917,
+      "popularity": 0.873,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by School of Rock (1.00)"
+      ]
+     },
+     "reason": ""
+    }
+   ],
+   "note": "Matched on taste, not location: Qloo's artist insights ignore the city filter, so check availability.",
+   "quality": "ranked",
+   "signal": "Music, School of Rock",
+   "band": "generous budget: popularity 0.55-0.90"
+  },
+  "sponsors": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "07142392-6395-44BA-85B6-2A5E7F38A6C6",
+     "name": "Pasticceria Rocco",
+     "kind": "place",
+     "address": "243 Bleecker St #4438 New York, NY 10014",
+     "neighborhood": "West Village",
+     "lat": 40.7308406,
+     "lon": -74.0026298,
+     "image": "https://images.qloo.com/i/07142392-6395-44BA-85B6-2A5E7F38A6C6-420x-auto.jpg",
+     "website": "http://pasticceriarocco.com/",
+     "description": "Comfy Italian bakeshop offering authentic pastries, cannoli, custom cakes and espresso with seating plus a light breakfast and lunch menu.",
+     "tags": [
+      "Solo diners",
+      "Nfc mobile payments",
+      "Debit cards",
+      "Culture arts",
+      "Midday",
+      "Traditional"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.906,
+      "popularity": 0.974,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "E9FEE923-FA3A-4434-B8BA-7D2398F046B0",
+     "name": "Flatiron Green Cafe",
+     "kind": "place",
+     "address": "949-999 Broadway New York, 10010",
+     "neighborhood": "Flatiron District",
+     "lat": 40.7409957,
+     "lon": -73.9896776,
+     "image": "https://images.qloo.com/i/E9FEE923-FA3A-4434-B8BA-7D2398F046B0-420x-auto.jpg",
+     "website": null,
+     "description": "Earth-friendly food stand with outdoor tables serving health-conscious organic light fare, coffee, beer, wine, and quick bites.",
+     "tags": [
+      "Approachable",
+      "Healthy options",
+      "Evening",
+      "Dessert",
+      "Takeout",
+      "Young professionals"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.903,
+      "popularity": 0.673,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "79813022-D701-4E50-BC68-01749226D9A8",
+     "name": "Café Leon Dore",
+     "kind": "place",
+     "address": "214 Mulberry St New York, NY 10012",
+     "neighborhood": "Little Italy",
+     "lat": 40.7221985,
+     "lon": -73.996049,
+     "image": "https://images.qloo.com/i/79813022-D701-4E50-BC68-01749226D9A8-420x-auto.jpg",
+     "website": "https://www.aimeleondore.com/pages/cafe-leon-dore",
+     "description": "Upscale Greek-inspired café serving freddo espresso, pastries, and light drinks in a bright Mulberry Street space with a patio and adjoining boutique.",
+     "tags": [
+      "Foodies",
+      "Delivery",
+      "Intimate",
+      "Afternoon",
+      "Debit cards",
+      "Onsite services"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.896,
+      "popularity": 0.887,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "C21B6C84-E21F-4900-B390-6202E82F30A6",
+     "name": "Central Perk Cafe",
+     "kind": "place",
+     "address": "105 Cedarhurst Ave Cedarhurst, NY 11516",
+     "neighborhood": "Cedarhurst",
+     "lat": 40.621999699999996,
+     "lon": -73.72405069999999,
+     "image": "https://images.qloo.com/i/C21B6C84-E21F-4900-B390-6202E82F30A6-420x-auto.jpg",
+     "website": "https://www.getsauce.com/order/central-perk-cafe",
+     "description": "Vaad-supervised kosher neighborhood coffeehouse serving espresso, breakfast, panini, pizzas, salads, and catering with large outdoor seating on Cedarhurst Avenue.",
+     "tags": [
+      "Casual brunching",
+      "Cocktails",
+      "Upscale neighborhood feel",
+      "Restaurant",
+      "Coffee culture",
+      "Restroom"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.887,
+      "popularity": 0.901,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "297C4E4F-7B0B-4E5E-B88F-3D57B05F3B38",
+     "name": "Macaron Parlour",
+     "kind": "place",
+     "address": "44 Hester St New York, NY 10002",
+     "neighborhood": "Chinatown",
+     "lat": 40.715528899999995,
+     "lon": -73.99022029999999,
+     "image": "https://images.qloo.com/i/297C4E4F-7B0B-4E5E-B88F-3D57B05F3B38-420x-auto.jpg",
+     "website": "http://macaronparlour.com/",
+     "description": "Small French patisserie in the Lower East Side offering handmade macarons, cookies, pastries, and hands-on macaron and croissant classes.",
+     "tags": [
+      "Chic",
+      "Patisserie",
+      "Coffee",
+      "Locals",
+      "Morning",
+      "Casual"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.881,
+      "popularity": 0.705,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "4584672D-C702-4E58-AEE3-D8DE584C36C8",
+     "name": "Fender",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/4584672D-C702-4E58-AEE3-D8DE584C36C8-420x-auto.jpg",
+     "website": null,
+     "description": "Fender is a leading manufacturer of electric and acoustic guitars, bass guitars, amplifiers, and related musical accessories.",
+     "tags": [
+      "Electronics",
+      "Music Instruments",
+      "Classic Contoured Body Shapes",
+      "Sunburst Finishes",
+      "High-Gloss Lacquer",
+      "Minimalist Industrial Design"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.93,
+      "popularity": 0.994,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    },
+    {
+     "id": "93B4EDF6-FF9A-4059-BF78-C1CA1B64B3AD",
+     "name": "Gibson",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/93B4EDF6-FF9A-4059-BF78-C1CA1B64B3AD-420x-auto.jpg",
+     "website": null,
+     "description": "American manufacturer of iconic electric and acoustic guitars, amplifiers, and musical instruments known for craftsmanship and sound excellence since 1894.",
+     "tags": [
+      "Music Instruments",
+      "Electronics",
+      "Classic Contours",
+      "Vintage Finishes",
+      "Iconic Headstock Shape",
+      "Refined Detailing"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.926,
+      "popularity": 0.991,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    },
+    {
+     "id": "90F2FDBC-4E0E-4C2B-991A-69540C74B379",
+     "name": "Guitar Center",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/90F2FDBC-4E0E-4C2B-991A-69540C74B379-420x-auto.jpg",
+     "website": null,
+     "description": "Guitar Center is a leading music store chain offering a wide range of musical instruments, accessories, equipment, and services including lessons, repairs, and rentals.",
+     "tags": [
+      "Guitars",
+      "Retail",
+      "Musical instrument retailers of the United States"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.924,
+      "popularity": 0.983,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Music, School of Rock"
+  },
+  "neighborhoods": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "4BFB8B7C-8A4E-40BC-BCE3-8DE9D6DDE441",
+     "name": "Chelsea",
+     "lat": 40.748290499999996,
+     "lon": -73.99292,
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.969,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "8 heatmap cells"
+      ]
+     }
+    },
+    {
+     "id": "0D8FFD70-B1A4-48DE-833D-C60E49AE4A2C",
+     "name": "Lenox Hill",
+     "lat": 40.7702635,
+     "lon": -73.970947,
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.953,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "8 heatmap cells"
+      ]
+     }
+    },
+    {
+     "id": "228E673D-ECB4-4F5F-A776-C9A8A42B0A7A",
+     "name": "Chinatown",
+     "lat": 40.70983925,
+     "lon": -73.99292,
+     "evidence": {
+      "signal": "Music, School of Rock",
+      "affinity": 0.901,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "8 heatmap cells"
+      ]
+     }
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Music, School of Rock",
+   "heat": [
+    [
+     40.71258,
+     -74.0094,
+     0.995
+    ],
+    [
+     40.72906,
+     -73.99841,
+     0.991
+    ],
+    [
+     40.65216,
+     -73.95447,
+     0.989
+    ],
+    [
+     40.7785,
+     -73.96545,
+     0.989
+    ],
+    [
+     40.75104,
+     -73.99841,
+     0.986
+    ],
+    [
+     40.76202,
+     -73.98743,
+     0.986
+    ],
+    [
+     40.75653,
+     -73.98743,
+     0.986
+    ],
+    [
+     40.72357,
+     -73.98743,
+     0.986
+    ],
+    [
+     40.74554,
+     -73.98743,
+     0.986
+    ],
+    [
+     40.76202,
+     -73.97644,
+     0.984
+    ],
+    [
+     40.72906,
+     -73.98743,
+     0.982
+    ],
+    [
+     40.73456,
+     -73.98743,
+     0.98
+    ],
+    [
+     40.75104,
+     -73.98743,
+     0.978
+    ],
+    [
+     40.7785,
+     -73.97644,
+     0.977
+    ],
+    [
+     40.7016,
+     -73.95447,
+     0.976
+    ],
+    [
+     40.70709,
+     -74.0094,
+     0.973
+    ],
+    [
+     40.74005,
+     -73.98743,
+     0.971
+    ],
+    [
+     40.72357,
+     -73.99841,
+     0.971
+    ],
+    [
+     40.73456,
+     -73.99841,
+     0.97
+    ],
+    [
+     40.75104,
+     -73.97644,
+     0.97
+    ],
+    [
+     40.77301,
+     -73.97644,
+     0.97
+    ],
+    [
+     40.70709,
+     -73.99841,
+     0.97
+    ],
+    [
+     40.71808,
+     -73.99841,
+     0.969
+    ],
+    [
+     40.71808,
+     -73.98743,
+     0.969
+    ],
+    [
+     40.74005,
+     -74.0094,
+     0.966
+    ],
+    [
+     40.75653,
+     -73.97644,
+     0.965
+    ],
+    [
+     40.74554,
+     -74.0094,
+     0.965
+    ],
+    [
+     40.71258,
+     -73.95447,
+     0.963
+    ],
+    [
+     40.71258,
+     -73.96545,
+     0.96
+    ],
+    [
+     40.74554,
+     -73.99841,
+     0.959
+    ],
+    [
+     40.76752,
+     -73.97644,
+     0.956
+    ],
+    [
+     40.71808,
+     -73.96545,
+     0.954
+    ],
+    [
+     40.76752,
+     -73.98743,
+     0.951
+    ],
+    [
+     40.7016,
+     -73.98743,
+     0.95
+    ],
+    [
+     40.75653,
+     -73.99841,
+     0.949
+    ],
+    [
+     40.71808,
+     -74.0094,
+     0.948
+    ],
+    [
+     40.72357,
+     -74.0094,
+     0.947
+    ],
+    [
+     40.72906,
+     -73.95447,
+     0.945
+    ],
+    [
+     40.784,
+     -73.95447,
+     0.942
+    ],
+    [
+     40.78949,
+     -73.97644,
+     0.942
+    ],
+    [
+     40.82794,
+     -73.92151,
+     0.942
+    ],
+    [
+     40.77301,
+     -73.98743,
+     0.941
+    ],
+    [
+     40.64117,
+     -73.77869,
+     0.938
+    ],
+    [
+     40.66864,
+     -73.96545,
+     0.937
+    ],
+    [
+     40.72357,
+     -73.97644,
+     0.936
+    ],
+    [
+     40.76202,
+     -73.99841,
+     0.936
+    ],
+    [
+     40.74005,
+     -73.99841,
+     0.933
+    ],
+    [
+     40.77301,
+     -73.96545,
+     0.931
+    ],
+    [
+     40.7016,
+     -73.99841,
+     0.927
+    ],
+    [
+     40.73456,
+     -74.0094,
+     0.927
+    ],
+    [
+     40.72357,
+     -73.95447,
+     0.926
+    ],
+    [
+     40.784,
+     -73.96545,
+     0.925
+    ],
+    [
+     40.69611,
+     -73.99841,
+     0.923
+    ],
+    [
+     40.69611,
+     -73.92151,
+     0.922
+    ],
+    [
+     40.72906,
+     -74.0094,
+     0.92
+    ],
+    [
+     40.68512,
+     -73.97644,
+     0.919
+    ],
+    [
+     40.66315,
+     -73.97644,
+     0.918
+    ],
+    [
+     40.75104,
+     -74.0094,
+     0.918
+    ],
+    [
+     40.57526,
+     -73.97644,
+     0.918
+    ],
+    [
+     40.70709,
+     -73.9325,
+     0.917
+    ],
+    [
+     40.7016,
+     -74.0094,
+     0.917
+    ],
+    [
+     40.71808,
+     -73.95447,
+     0.916
+    ],
+    [
+     40.71258,
+     -73.99841,
+     0.915
+    ],
+    [
+     40.75104,
+     -73.96545,
+     0.914
+    ],
+    [
+     40.76752,
+     -73.99841,
+     0.912
+    ],
+    [
+     40.74554,
+     -73.8446,
+     0.911
+    ],
+    [
+     40.74554,
+     -73.97644,
+     0.911
+    ],
+    [
+     40.67413,
+     -73.96545,
+     0.909
+    ],
+    [
+     40.76202,
+     -73.96545,
+     0.909
+    ],
+    [
+     40.77301,
+     -73.87756,
+     0.908
+    ],
+    [
+     40.70709,
+     -73.92151,
+     0.907
+    ],
+    [
+     40.69061,
+     -73.98743,
+     0.906
+    ],
+    [
+     40.76752,
+     -73.96545,
+     0.905
+    ],
+    [
+     40.7016,
+     -73.92151,
+     0.9
+    ],
+    [
+     40.784,
+     -73.97644,
+     0.899
+    ],
+    [
+     40.7016,
+     -73.83362,
+     0.897
+    ],
+    [
+     40.69061,
+     -73.96545,
+     0.896
+    ],
+    [
+     40.7016,
+     -74.02039,
+     0.895
+    ],
+    [
+     40.71258,
+     -73.94348,
+     0.894
+    ],
+    [
+     40.71258,
+     -74.02039,
+     0.892
+    ],
+    [
+     40.7785,
+     -73.95447,
+     0.891
+    ],
+    [
+     40.75653,
+     -73.96545,
+     0.891
+    ],
+    [
+     40.75653,
+     -73.8446,
+     0.888
+    ],
+    [
+     40.84992,
+     -73.86658,
+     0.886
+    ],
+    [
+     40.81146,
+     -73.94348,
+     0.886
+    ],
+    [
+     40.76202,
+     -73.92151,
+     0.884
+    ],
+    [
+     40.68512,
+     -73.94348,
+     0.881
+    ],
+    [
+     40.80597,
+     -73.96545,
+     0.879
+    ],
+    [
+     40.74554,
+     -73.95447,
+     0.879
+    ],
+    [
+     40.71808,
+     -73.94348,
+     0.875
+    ],
+    [
+     40.63019,
+     -74.0863,
+     0.872
+    ],
+    [
+     40.75104,
+     -73.8446,
+     0.871
+    ],
+    [
+     40.67413,
+     -73.98743,
+     0.867
+    ],
+    [
+     40.77301,
+     -73.92151,
+     0.867
+    ],
+    [
+     40.56976,
+     -74.11926,
+     0.867
+    ],
+    [
+     40.71258,
+     -73.98743,
+     0.866
+    ],
+    [
+     40.80597,
+     -73.94348,
+     0.865
+    ],
+    [
+     40.75653,
+     -73.92151,
+     0.864
+    ],
+    [
+     40.69061,
+     -73.97644,
+     0.861
+    ],
+    [
+     40.74005,
+     -73.97644,
+     0.861
+    ],
+    [
+     40.69611,
+     -73.98743,
+     0.86
+    ],
+    [
+     40.69061,
+     -74.02039,
+     0.859
+    ],
+    [
+     40.72906,
+     -73.97644,
+     0.859
+    ],
+    [
+     40.57526,
+     -73.96545,
+     0.858
+    ],
+    [
+     40.76202,
+     -73.95447,
+     0.858
+    ],
+    [
+     40.58624,
+     -73.81165,
+     0.857
+    ],
+    [
+     40.67963,
+     -73.98743,
+     0.856
+    ],
+    [
+     40.79498,
+     -73.92151,
+     0.856
+    ],
+    [
+     40.80048,
+     -73.94348,
+     0.855
+    ],
+    [
+     40.66864,
+     -73.94348,
+     0.853
+    ],
+    [
+     40.83893,
+     -73.9325,
+     0.85
+    ],
+    [
+     40.79498,
+     -73.95447,
+     0.85
+    ],
+    [
+     40.77301,
+     -73.95447,
+     0.85
+    ],
+    [
+     40.67963,
+     -73.97644,
+     0.849
+    ],
+    [
+     40.8609,
+     -73.87756,
+     0.847
+    ],
+    [
+     40.70709,
+     -74.02039,
+     0.847
+    ],
+    [
+     40.64667,
+     -73.77869,
+     0.845
+    ],
+    [
+     40.79498,
+     -73.97644,
+     0.844
+    ],
+    [
+     40.84992,
+     -73.87756,
+     0.842
+    ],
+    [
+     40.68512,
+     -73.98743,
+     0.841
+    ],
+    [
+     40.67413,
+     -73.97644,
+     0.841
+    ],
+    [
+     40.68512,
+     -73.96545,
+     0.839
+    ],
+    [
+     40.81146,
+     -73.96545,
+     0.837
+    ],
+    [
+     40.69061,
+     -73.99841,
+     0.837
+    ],
+    [
+     40.7785,
+     -73.98743,
+     0.836
+    ],
+    [
+     40.71808,
+     -73.8446,
+     0.833
+    ],
+    [
+     40.80048,
+     -73.96545,
+     0.833
+    ],
+    [
+     40.78949,
+     -73.95447,
+     0.832
+    ],
+    [
+     40.76202,
+     -73.83362,
+     0.832
+    ],
+    [
+     40.64117,
+     -73.78967,
+     0.827
+    ],
+    [
+     40.66864,
+     -73.97644,
+     0.825
+    ],
+    [
+     40.70709,
+     -73.94348,
+     0.825
+    ],
+    [
+     40.64667,
+     -73.95447,
+     0.823
+    ],
+    [
+     40.76752,
+     -73.86658,
+     0.823
+    ],
+    [
+     40.72357,
+     -73.94348,
+     0.823
+    ],
+    [
+     40.81146,
+     -73.95447,
+     0.82
+    ],
+    [
+     40.76752,
+     -73.92151,
+     0.818
+    ],
+    [
+     40.67413,
+     -73.99841,
+     0.817
+    ],
+    [
+     40.73456,
+     -73.95447,
+     0.817
+    ],
+    [
+     40.66864,
+     -73.98743,
+     0.815
+    ],
+    [
+     40.82245,
+     -73.95447,
+     0.815
+    ],
+    [
+     40.64667,
+     -73.99841,
+     0.813
+    ],
+    [
+     40.80048,
+     -73.95447,
+     0.813
+    ],
+    [
+     40.86639,
+     -73.9325,
+     0.811
+    ],
+    [
+     40.77301,
+     -73.91052,
+     0.809
+    ],
+    [
+     40.64667,
+     -74.07532,
+     0.809
+    ],
+    [
+     40.75653,
+     -73.95447,
+     0.807
+    ],
+    [
+     40.74554,
+     -73.85559,
+     0.806
+    ],
+    [
+     40.66315,
+     -73.96545,
+     0.806
+    ],
+    [
+     40.80597,
+     -73.95447,
+     0.799
+    ],
+    [
+     40.74554,
+     -73.88855,
+     0.798
+    ],
+    [
+     40.83893,
+     -73.94348,
+     0.798
+    ],
+    [
+     40.57526,
+     -73.98743,
+     0.797
+    ],
+    [
+     40.82245,
+     -73.94348,
+     0.794
+    ],
+    [
+     40.7785,
+     -73.92151,
+     0.794
+    ],
+    [
+     40.86639,
+     -73.92151,
+     0.79
+    ],
+    [
+     40.79498,
+     -73.96545,
+     0.786
+    ],
+    [
+     40.67963,
+     -73.94348,
+     0.784
+    ],
+    [
+     40.75653,
+     -73.88855,
+     0.783
+    ],
+    [
+     40.69611,
+     -73.78967,
+     0.78
+    ],
+    [
+     40.6192,
+     -74.02039,
+     0.775
+    ],
+    [
+     40.66864,
+     -73.87756,
+     0.773
+    ],
+    [
+     40.60822,
+     -74.04236,
+     0.773
+    ],
+    [
+     40.81696,
+     -73.94348,
+     0.77
+    ],
+    [
+     40.64117,
+     -73.97644,
+     0.769
+    ],
+    [
+     40.64117,
+     -73.96545,
+     0.766
+    ],
+    [
+     40.84442,
+     -73.94348,
+     0.765
+    ],
+    [
+     40.89386,
+     -73.91052,
+     0.765
+    ],
+    [
+     40.75104,
+     -73.94348,
+     0.763
+    ],
+    [
+     40.8609,
+     -73.88855,
+     0.762
+    ],
+    [
+     40.74554,
+     -73.89954,
+     0.761
+    ],
+    [
+     40.66864,
+     -73.91052,
+     0.759
+    ],
+    [
+     40.66315,
+     -73.94348,
+     0.756
+    ],
+    [
+     40.73456,
+     -73.82263,
+     0.754
+    ],
+    [
+     40.67413,
+     -73.86658,
+     0.753
+    ],
+    [
+     40.74554,
+     -73.91052,
+     0.753
+    ],
+    [
+     40.78949,
+     -73.96545,
+     0.752
+    ],
+    [
+     40.85541,
+     -73.88855,
+     0.751
+    ],
+    [
+     40.83344,
+     -73.92151,
+     0.751
+    ],
+    [
+     40.63019,
+     -74.03137,
+     0.75
+    ],
+    [
+     40.73456,
+     -73.86658,
+     0.747
+    ],
+    [
+     40.7016,
+     -73.91052,
+     0.747
+    ],
+    [
+     40.64667,
+     -74.0094,
+     0.746
+    ],
+    [
+     40.75104,
+     -73.9325,
+     0.745
+    ],
+    [
+     40.66315,
+     -73.88855,
+     0.745
+    ],
+    [
+     40.71808,
+     -74.02039,
+     0.743
+    ],
+    [
+     40.71258,
+     -73.82263,
+     0.741
+    ],
+    [
+     40.82794,
+     -73.94348,
+     0.741
+    ],
+    [
+     40.74554,
+     -73.92151,
+     0.739
+    ],
+    [
+     40.73456,
+     -73.87756,
+     0.737
+    ],
+    [
+     40.75104,
+     -73.88855,
+     0.735
+    ],
+    [
+     40.75653,
+     -73.9325,
+     0.735
+    ],
+    [
+     40.76202,
+     -73.7677,
+     0.732
+    ],
+    [
+     40.8609,
+     -73.89954,
+     0.731
+    ],
+    [
+     40.65765,
+     -74.0094,
+     0.727
+    ],
+    [
+     40.73456,
+     -73.78967,
+     0.727
+    ],
+    [
+     40.58624,
+     -73.94348,
+     0.727
+    ],
+    [
+     40.84442,
+     -73.9325,
+     0.724
+    ],
+    [
+     40.64667,
+     -73.78967,
+     0.724
+    ],
+    [
+     40.78949,
+     -73.94348,
+     0.723
+    ],
+    [
+     40.87189,
+     -73.89954,
+     0.723
+    ],
+    [
+     40.7016,
+     -73.85559,
+     0.721
+    ],
+    [
+     40.84992,
+     -73.9325,
+     0.721
+    ],
+    [
+     40.75653,
+     -73.82263,
+     0.72
+    ],
+    [
+     40.59174,
+     -74.06433,
+     0.719
+    ],
+    [
+     40.7785,
+     -73.94348,
+     0.719
+    ],
+    [
+     40.77301,
+     -73.94348,
+     0.719
+    ],
+    [
+     40.81696,
+     -73.95447,
+     0.715
+    ],
+    [
+     40.85541,
+     -73.83362,
+     0.712
+    ],
+    [
+     40.82794,
+     -73.95447,
+     0.712
+    ],
+    [
+     40.81146,
+     -73.92151,
+     0.71
+    ],
+    [
+     40.83893,
+     -73.92151,
+     0.707
+    ],
+    [
+     40.84992,
+     -73.94348,
+     0.707
+    ],
+    [
+     40.74554,
+     -73.9325,
+     0.707
+    ],
+    [
+     40.76752,
+     -73.89954,
+     0.705
+    ],
+    [
+     40.7785,
+     -73.87756,
+     0.705
+    ],
+    [
+     40.85541,
+     -73.9325,
+     0.704
+    ],
+    [
+     40.72357,
+     -73.78967,
+     0.703
+    ],
+    [
+     40.6192,
+     -73.99841,
+     0.7
+    ],
+    [
+     40.83893,
+     -73.8446,
+     0.7
+    ],
+    [
+     40.84992,
+     -73.78967,
+     0.695
+    ],
+    [
+     40.75653,
+     -73.83362,
+     0.693
+    ],
+    [
+     40.76202,
+     -73.91052,
+     0.691
+    ],
+    [
+     40.57526,
+     -73.94348,
+     0.691
+    ],
+    [
+     40.75653,
+     -73.94348,
+     0.691
+    ],
+    [
+     40.72357,
+     -73.96545,
+     0.691
+    ],
+    [
+     40.75653,
+     -73.86658,
+     0.688
+    ],
+    [
+     40.79498,
+     -73.94348,
+     0.688
+    ],
+    [
+     40.8609,
+     -73.92151,
+     0.685
+    ],
+    [
+     40.87189,
+     -73.92151,
+     0.685
+    ],
+    [
+     40.8609,
+     -73.9325,
+     0.685
+    ],
+    [
+     40.784,
+     -73.94348,
+     0.684
+    ],
+    [
+     40.83344,
+     -73.94348,
+     0.684
+    ],
+    [
+     40.76752,
+     -73.95447,
+     0.683
+    ],
+    [
+     40.74554,
+     -73.87756,
+     0.68
+    ],
+    [
+     40.87189,
+     -73.88855,
+     0.68
+    ],
+    [
+     40.58624,
+     -73.95447,
+     0.677
+    ],
+    [
+     40.78949,
+     -73.77869,
+     0.675
+    ],
+    [
+     40.76752,
+     -73.91052,
+     0.672
+    ],
+    [
+     40.74554,
+     -73.94348,
+     0.672
+    ],
+    [
+     40.60822,
+     -73.91052,
+     0.671
+    ],
+    [
+     40.87189,
+     -73.91052,
+     0.667
+    ],
+    [
+     40.84442,
+     -73.89954,
+     0.667
+    ],
+    [
+     40.66315,
+     -73.98743,
+     0.667
+    ],
+    [
+     40.75104,
+     -73.89954,
+     0.663
+    ],
+    [
+     40.7016,
+     -73.81165,
+     0.663
+    ],
+    [
+     40.79498,
+     -73.82263,
+     0.659
+    ],
+    [
+     40.88837,
+     -73.89954,
+     0.659
+    ],
+    [
+     40.59723,
+     -73.95447,
+     0.659
+    ],
+    [
+     40.75104,
+     -73.83362,
+     0.658
+    ],
+    [
+     40.66864,
+     -73.95447,
+     0.658
+    ],
+    [
+     40.87738,
+     -73.91052,
+     0.657
+    ],
+    [
+     40.65765,
+     -73.96545,
+     0.656
+    ],
+    [
+     40.75653,
+     -73.89954,
+     0.655
+    ],
+    [
+     40.64117,
+     -74.07532,
+     0.651
+    ],
+    [
+     40.77301,
+     -73.86658,
+     0.647
+    ],
+    [
+     40.81696,
+     -73.92151,
+     0.647
+    ],
+    [
+     40.69061,
+     -73.85559,
+     0.646
+    ],
+    [
+     40.784,
+     -73.8446,
+     0.645
+    ],
+    [
+     40.70709,
+     -73.98743,
+     0.644
+    ],
+    [
+     40.65216,
+     -73.94348,
+     0.644
+    ],
+    [
+     40.6192,
+     -74.03137,
+     0.644
+    ],
+    [
+     40.86639,
+     -73.78967,
+     0.643
+    ],
+    [
+     40.59723,
+     -73.96545,
+     0.641
+    ],
+    [
+     40.79498,
+     -73.9325,
+     0.641
+    ],
+    [
+     40.56976,
+     -74.14123,
+     0.64
+    ],
+    [
+     40.64117,
+     -74.02039,
+     0.639
+    ],
+    [
+     40.86639,
+     -73.82263,
+     0.639
+    ],
+    [
+     40.84442,
+     -73.82263,
+     0.635
+    ],
+    [
+     40.74005,
+     -73.92151,
+     0.635
+    ],
+    [
+     40.71808,
+     -73.83362,
+     0.633
+    ],
+    [
+     40.75104,
+     -73.87756,
+     0.632
+    ],
+    [
+     40.66864,
+     -74.04236,
+     0.631
+    ],
+    [
+     40.60272,
+     -73.99841,
+     0.629
+    ],
+    [
+     40.67413,
+     -74.0094,
+     0.625
+    ],
+    [
+     40.68512,
+     -73.92151,
+     0.625
+    ],
+    [
+     40.85541,
+     -73.89954,
+     0.625
+    ],
+    [
+     40.73456,
+     -73.97644,
+     0.624
+    ],
+    [
+     40.82245,
+     -73.9325,
+     0.624
+    ],
+    [
+     40.84992,
+     -73.91052,
+     0.62
+    ],
+    [
+     40.64117,
+     -74.09729,
+     0.62
+    ],
+    [
+     40.76202,
+     -73.9325,
+     0.618
+    ],
+    [
+     40.80597,
+     -73.9325,
+     0.617
+    ],
+    [
+     40.76202,
+     -73.88855,
+     0.616
+    ],
+    [
+     40.72357,
+     -73.91052,
+     0.616
+    ],
+    [
+     40.69611,
+     -73.9325,
+     0.613
+    ],
+    [
+     40.70709,
+     -73.95447,
+     0.613
+    ],
+    [
+     40.83893,
+     -73.77869,
+     0.612
+    ],
+    [
+     40.74005,
+     -73.95447,
+     0.612
+    ],
+    [
+     40.86639,
+     -73.89954,
+     0.611
+    ],
+    [
+     40.63568,
+     -73.97644,
+     0.61
+    ],
+    [
+     40.73456,
+     -73.9325,
+     0.609
+    ],
+    [
+     40.65765,
+     -73.83362,
+     0.608
+    ],
+    [
+     40.75104,
+     -73.86658,
+     0.608
+    ],
+    [
+     40.60822,
+     -73.95447,
+     0.606
+    ],
+    [
+     40.72906,
+     -73.85559,
+     0.604
+    ],
+    [
+     40.83893,
+     -73.85559,
+     0.604
+    ],
+    [
+     40.86639,
+     -73.87756,
+     0.602
+    ],
+    [
+     40.63019,
+     -74.0094,
+     0.601
+    ],
+    [
+     40.7785,
+     -73.91052,
+     0.6
+    ],
+    [
+     40.86639,
+     -73.88855,
+     0.6
+    ],
+    [
+     40.73456,
+     -73.85559,
+     0.598
+    ],
+    [
+     40.80597,
+     -73.80066,
+     0.598
+    ],
+    [
+     40.7016,
+     -73.9325,
+     0.597
+    ],
+    [
+     40.84442,
+     -73.91052,
+     0.596
+    ],
+    [
+     40.74005,
+     -73.94348,
+     0.596
+    ],
+    [
+     40.66864,
+     -73.92151,
+     0.595
+    ],
+    [
+     40.70709,
+     -73.73474,
+     0.594
+    ],
+    [
+     40.6247,
+     -74.03137,
+     0.593
+    ],
+    [
+     40.63019,
+     -73.95447,
+     0.593
+    ],
+    [
+     40.88287,
+     -73.89954,
+     0.591
+    ],
+    [
+     40.64667,
+     -73.96545,
+     0.591
+    ],
+    [
+     40.67413,
+     -73.8446,
+     0.591
+    ],
+    [
+     40.70709,
+     -73.82263,
+     0.589
+    ],
+    [
+     40.64667,
+     -73.94348,
+     0.589
+    ],
+    [
+     40.61371,
+     -74.03137,
+     0.586
+    ],
+    [
+     40.7016,
+     -73.88855,
+     0.586
+    ],
+    [
+     40.67963,
+     -73.96545,
+     0.585
+    ],
+    [
+     40.85541,
+     -73.91052,
+     0.584
+    ],
+    [
+     40.58075,
+     -74.16321,
+     0.584
+    ],
+    [
+     40.80048,
+     -73.83362,
+     0.581
+    ],
+    [
+     40.74005,
+     -73.96545,
+     0.58
+    ],
+    [
+     40.84442,
+     -73.92151,
+     0.58
+    ],
+    [
+     40.69611,
+     -73.8446,
+     0.578
+    ],
+    [
+     40.69061,
+     -73.95447,
+     0.578
+    ],
+    [
+     40.784,
+     -73.92151,
+     0.575
+    ],
+    [
+     40.83893,
+     -73.88855,
+     0.575
+    ],
+    [
+     40.7016,
+     -73.80066,
+     0.574
+    ],
+    [
+     40.8609,
+     -73.91052,
+     0.573
+    ],
+    [
+     40.71258,
+     -73.92151,
+     0.572
+    ],
+    [
+     40.85541,
+     -73.86658,
+     0.572
+    ],
+    [
+     40.81146,
+     -73.88855,
+     0.57
+    ],
+    [
+     40.78949,
+     -73.83362,
+     0.568
+    ],
+    [
+     40.75653,
+     -73.87756,
+     0.568
+    ],
+    [
+     40.74005,
+     -73.87756,
+     0.568
+    ],
+    [
+     40.63568,
+     -74.02039,
+     0.564
+    ],
+    [
+     40.84442,
+     -73.88855,
+     0.564
+    ],
+    [
+     40.63019,
+     -74.02039,
+     0.563
+    ],
+    [
+     40.72357,
+     -73.8446,
+     0.563
+    ],
+    [
+     40.70709,
+     -73.85559,
+     0.563
+    ],
+    [
+     40.83893,
+     -73.87756,
+     0.563
+    ],
+    [
+     40.71258,
+     -73.87756,
+     0.559
+    ],
+    [
+     40.71808,
+     -73.97644,
+     0.559
+    ],
+    [
+     40.87738,
+     -73.88855,
+     0.558
+    ],
+    [
+     40.83344,
+     -73.85559,
+     0.558
+    ],
+    [
+     40.59174,
+     -73.98743,
+     0.558
+    ],
+    [
+     40.63568,
+     -74.03137,
+     0.558
+    ],
+    [
+     40.75104,
+     -73.82263,
+     0.558
+    ],
+    [
+     40.69611,
+     -73.91052,
+     0.557
+    ],
+    [
+     40.67413,
+     -73.95447,
+     0.557
+    ],
+    [
+     40.87738,
+     -73.86658,
+     0.556
+    ],
+    [
+     40.59723,
+     -73.97644,
+     0.555
+    ],
+    [
+     40.71258,
+     -73.78967,
+     0.552
+    ],
+    [
+     40.71258,
+     -73.9325,
+     0.552
+    ],
+    [
+     40.69611,
+     -73.7677,
+     0.55
+    ],
+    [
+     40.67963,
+     -73.99841,
+     0.55
+    ],
+    [
+     40.6247,
+     -73.96545,
+     0.547
+    ],
+    [
+     40.71258,
+     -73.81165,
+     0.545
+    ],
+    [
+     40.82794,
+     -73.9325,
+     0.544
+    ],
+    [
+     40.58075,
+     -73.95447,
+     0.541
+    ],
+    [
+     40.75104,
+     -73.95447,
+     0.539
+    ],
+    [
+     40.67963,
+     -73.91052,
+     0.539
+    ],
+    [
+     40.75653,
+     -73.91052,
+     0.538
+    ],
+    [
+     40.66864,
+     -73.99841,
+     0.537
+    ],
+    [
+     40.59174,
+     -74.07532,
+     0.536
+    ],
+    [
+     40.63568,
+     -73.96545,
+     0.536
+    ],
+    [
+     40.57526,
+     -73.95447,
+     0.534
+    ],
+    [
+     40.74005,
+     -73.77869,
+     0.533
+    ],
+    [
+     40.76202,
+     -73.81165,
+     0.533
+    ],
+    [
+     40.82794,
+     -73.82263,
+     0.532
+    ],
+    [
+     40.68512,
+     -73.99841,
+     0.531
+    ],
+    [
+     40.63568,
+     -74.0094,
+     0.53
+    ],
+    [
+     40.67963,
+     -73.95447,
+     0.53
+    ],
+    [
+     40.83893,
+     -73.89954,
+     0.529
+    ],
+    [
+     40.784,
+     -73.98743,
+     0.527
+    ],
+    [
+     40.59174,
+     -73.80066,
+     0.526
+    ],
+    [
+     40.7016,
+     -73.94348,
+     0.526
+    ],
+    [
+     40.67963,
+     -74.0094,
+     0.525
+    ],
+    [
+     40.69611,
+     -73.89954,
+     0.525
+    ],
+    [
+     40.58075,
+     -73.96545,
+     0.524
+    ],
+    [
+     40.82245,
+     -73.89954,
+     0.522
+    ],
+    [
+     40.82794,
+     -73.87756,
+     0.522
+    ],
+    [
+     40.67413,
+     -74.02039,
+     0.521
+    ],
+    [
+     40.68512,
+     -73.87756,
+     0.521
+    ],
+    [
+     40.83344,
+     -73.8446,
+     0.521
+    ],
+    [
+     40.86639,
+     -73.81165,
+     0.519
+    ],
+    [
+     40.76752,
+     -73.9325,
+     0.518
+    ],
+    [
+     40.69061,
+     -73.82263,
+     0.515
+    ],
+    [
+     40.67963,
+     -73.86658,
+     0.515
+    ],
+    [
+     40.74005,
+     -73.82263,
+     0.514
+    ],
+    [
+     40.61371,
+     -73.9325,
+     0.512
+    ],
+    [
+     40.65216,
+     -73.83362,
+     0.512
+    ],
+    [
+     40.65216,
+     -74.0094,
+     0.511
+    ],
+    [
+     40.784,
+     -73.9325,
+     0.509
+    ],
+    [
+     40.80597,
+     -73.92151,
+     0.508
+    ],
+    [
+     40.65765,
+     -73.95447,
+     0.506
+    ],
+    [
+     40.66315,
+     -73.99841,
+     0.505
+    ],
+    [
+     40.84442,
+     -73.85559,
+     0.503
+    ],
+    [
+     40.72906,
+     -73.86658,
+     0.503
+    ],
+    [
+     40.76202,
+     -73.82263,
+     0.502
+    ]
+   ]
+  },
+  "promotion": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "1C3709B7-9BD7-4468-BE13-D33820D8ACAF",
+     "name": "Here's The Thing with Alec Baldwin",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/1C3709B7-9BD7-4468-BE13-D33820D8ACAF-420x-auto.jpg",
+     "website": null,
+     "description": "Alec Baldwin interviews artists and public figures, revealing their personal lives and insights in an intimate setting.",
+     "tags": [
+      "Arts",
+      "Podcasts",
+      "Performing Arts",
+      "Music",
+      "Music Interviews"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, Music education, School of Rock",
+      "affinity": 0.901,
+      "popularity": 0.984,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    },
+    {
+     "id": "8B1DD0F9-6496-4BC5-93E0-24030B0E40C6",
+     "name": "Zoey's Extraordinary Playlist",
+     "kind": "tv_show",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/8B1DD0F9-6496-4BC5-93E0-24030B0E40C6-420x-auto.jpg",
+     "website": null,
+     "description": "Zoey's Extraordinary Playlist (2020) is an American musical fantasy dramedy starring Jane Levy, Skylar Astin and Alex Newell, with supporting performances from Peter Gallagher, Mary Steenburgen and Lauren Graham. The series follows a young ",
+     "tags": [
+      "Family",
+      "Workplace dynamics",
+      "Visualized inner monologues",
+      "Music loving",
+      "Office romance",
+      "Reading minds"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, Music education, School of Rock",
+      "affinity": 0.937,
+      "popularity": 0.872,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "tv_show"
+    },
+    {
+     "id": "F9268AA8-6874-4ADA-A41B-0EBD2BCEAEA8",
+     "name": "WTF with Marc Maron Podcast",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/F9268AA8-6874-4ADA-A41B-0EBD2BCEAEA8-420x-auto.jpg",
+     "website": null,
+     "description": "Marc Maron hosts revealing conversations with a diverse range of guests, exploring their lives and careers in depth.",
+     "tags": [
+      "Comedy",
+      "Podcasts"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, Music education, School of Rock",
+      "affinity": 0.89,
+      "popularity": 0.998,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    },
+    {
+     "id": "B2432BE0-172E-485B-BC1B-3220EDAAFF49",
+     "name": "Arthur",
+     "kind": "tv_show",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/B2432BE0-172E-485B-BC1B-3220EDAAFF49-420x-auto.jpg",
+     "website": null,
+     "description": "Arthur (1996) is an animated children’s series developed by Kathy Waugh for PBS and produced by WGBH Boston, with Greg Bailey credited among episode directors. Based on the books by Marc Brown, the show centers on Arthur Read—an elementary-",
+     "tags": [
+      "Childrens animation",
+      "Friendship",
+      "Friendship",
+      "One word series title",
+      "Music",
+      "Educational"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Music, Music education, School of Rock",
+      "affinity": 0.923,
+      "popularity": 0.782,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "tv_show"
+    },
+    {
+     "id": "76897EF3-7E1E-49DD-882C-66BDB6F455BA",
+     "name": "Gilbert Gottfried's Amazing Colossal Podcast",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/76897EF3-7E1E-49DD-882C-66BDB6F455BA-420x-auto.jpg",
+     "website": null,
+     "description": "Gilbert Gottfried interviews show business legends and icons, sharing humorous insights and stories from Hollywood's past.",
+     "tags": [
+      "Visual Arts",
+      "Podcasts",
+      "Arts",
+      "TV & Film"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Music, Music education, School of Rock",
+      "affinity": 0.882,
+      "popularity": 0.973,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Music, Music education, School of Rock"
+  }
+ },
+ "plan": {
+  "event_name": "After-School Encore",
+  "tagline": "One stage, many instruments, and a brighter future for young musicians.",
+  "concept": "A lively October fundraising social for 200 guests featuring live rock, food, drinks, and a strong youth music mission. Guests will discover the nonprofit’s free after-school music school through an interactive evening built around performance, community, and student stories.",
+  "format": "Saturday evening indoor social with live music, dinner, drinks, and a student showcase",
+  "date_window": "October, with a Saturday evening preferred",
+  "taste_summary": "These supporters enjoy Music and Music education, with School of Rock reinforcing their interest in music-focused entertainment. The program pairs guitar-driven performance with a practical celebration of young people learning instruments.",
+  "headline_venue_id": "49849637-7557-4B2F-BD69-5A87EA005DC9",
+  "headline_performer_id": "DB92A206-B059-45A0-A898-C50F274DBC52",
+  "reasons": {
+   "49849637-7557-4B2F-BD69-5A87EA005DC9": "Private event room, food, drinks, and darts suit a lively 200-guest fundraiser.",
+   "DB92A206-B059-45A0-A898-C50F274DBC52": "Guitar-forward rock appeal strongly fits supporters interested in music and music education.",
+   "4584672D-C702-4E58-AEE3-D8DE584C36C8": "Instrument expertise aligns directly with an event teaching young people instruments.",
+   "07142392-6395-44BA-85B6-2A5E7F38A6C6": "Local-business alignment and culture arts interests suit a community-centered music fundraiser.",
+   "4BFB8B7C-8A4E-40BC-BCE3-8DE9D6DDE441": "Highest-affinity supplied neighborhood provides a fitting New York setting for 200 guests."
+  },
+  "run_of_show": [
+   {
+    "time": "5:00 PM",
+    "title": "Doors and welcome drinks",
+    "detail": "Guests arrive, mingle, and explore instrument-themed sponsor displays."
+   },
+   {
+    "time": "5:30 PM",
+    "title": "Mission moment",
+    "detail": "A brief welcome explains the free after-school music school and introduces student stories."
+   },
+   {
+    "time": "6:00 PM",
+    "title": "Dinner service",
+    "detail": "Food, drinks, and casual conversation create time for supporter connections."
+   },
+   {
+    "time": "7:00 PM",
+    "title": "Live rock set",
+    "detail": "Joe Perry performs a high-energy set connected to the evening’s guitar focus."
+   },
+   {
+    "time": "7:45 PM",
+    "title": "Student showcase",
+    "detail": "Young musicians share a short group performance and introduce the pieces they prepared."
+   },
+   {
+    "time": "8:15 PM",
+    "title": "Fundraising close",
+    "detail": "The host presents sponsorship levels, donation options, and a concise impact recap."
+   }
+  ],
+  "promotion_angles": [
+   {
+    "id": "8B1DD0F9-6496-4BC5-93E0-24030B0E40C6",
+    "angle": "Use Zoey's Extraordinary Playlist to spotlight music-loving stories, family support, and the students preparing for the showcase."
+   },
+   {
+    "id": "1C3709B7-9BD7-4468-BE13-D33820D8ACAF",
+    "angle": "Pitch Here's The Thing with Alec Baldwin as a conversation opportunity about arts access, youth creativity, and community."
+   },
+   {
+    "id": "B2432BE0-172E-485B-BC1B-3220EDAAFF49",
+    "angle": "Connect Arthur to the event’s youth, friendship, and imaginative storytelling angle for family-oriented outreach."
+   }
+  ],
+  "sponsor_pitch": {
+   "subject": "Join Fender for an after-school music fundraiser in New York",
+   "opening": "The nonprofit provides free after-school music education that helps young people learn instruments and build confidence. Your support will make an engaging October celebration possible for 200 guests in Blue Haven East.",
+   "audience": "The supplied audience interests include School of Rock, Music, and Music education, indicating strong overlap with a live, instrument-focused event. Fender has the highest sponsor affinity in the supplied data, while its music-instrument focus directly supports the program.",
+   "benefits": [
+    "High-visibility brand recognition",
+    "Direct connection with young musicians",
+    "Guest engagement before the performance",
+    "Onsite recognition and sponsor thanks"
+   ],
+   "ask": "Join Fender as a supporting sponsor and explore a visible role in the student showcase. Please contact the nonprofit team to discuss contributions and activation ideas."
+  }
+ },
+ "baseline": {
+  "status": "ok",
+  "model": "minimax/minimax-m3.1-flash:free",
+  "event_name": "School of Rock: Encore for Youth",
+  "concept": "A high-energy October benefit concert celebrating young musicians through live performances, an instrument expo, and a silent auction. Proceeds will fund free after-school music lessons, instruments, and performance opportunities for New York City youth.",
+  "venues": [
+   {
+    "name": "The Town Hall",
+    "reason": "Historic stage offers excellent visibility, acoustics, and room for 200 guests."
+   },
+   {
+    "name": "Beacon Theatre",
+    "reason": "Iconic NYC venue delivers a memorable rock-concert atmosphere for supporters."
+   },
+   {
+    "name": "Bowery Ballroom",
+    "reason": "Intimate live-music setting suits emerging bands and student showcases."
+   },
+   {
+    "name": "The Glasshouse",
+    "reason": "Flexible event space includes a performance stage, gallery, and reception area."
+   }
+  ],
+  "performers": [
+   {
+    "name": "Scissor Sisters",
+    "reason": "Their theatrical pop-rock sound could energize a high-profile benefit show."
+   },
+   {
+    "name": "The National",
+    "reason": "New York roots resonate strongly with local supporters and alumni."
+   },
+   {
+    "name": "Kidd Cudi",
+    "reason": "Hip-hop crossover appeal can attract a broad, younger donor audience."
+   },
+   {
+    "name": "School of Rock Student Showcase",
+    "reason": "Student performances connect fundraising directly to the program’s mission."
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Fender",
+    "reason": "Instrument donations and branded workshops would support music education."
+   },
+   {
+    "name": "D’Addario",
+    "reason": "Strings, accessories, and auction prizes align naturally with the program."
+   },
+   {
+    "name": "Radio.com",
+    "reason": "Promotional support and artist appearances could increase event visibility."
+   },
+   {
+    "name": "Sweetgreen",
+    "reason": "Local brand partnership could provide catering and audience engagement."
+   },
+   {
+    "name": "SiriusXM",
+    "reason": "Music-platform exposure could help attract donors and spotlight students."
+   }
+  ],
+  "promotion": [
+   {
+    "name": "School of Rock Fan Community",
+    "reason": "Affinity with the brand offers a ready-made audience of music fans."
+   },
+   {
+    "name": "Eventbrite",
+    "reason": "Ticketed registration and targeted email campaigns can drive attendance."
+   },
+   {
+    "name": "Instagram Reels",
+    "reason": "Student rehearsal videos can build excitement and donor interest."
+   },
+   {
+    "name": "Spotify Playlists",
+    "reason": "Curated student playlists can extend promotion through music discovery."
+   },
+   {
+    "name": "NYC Schools and Community Partners",
+    "reason": "School networks can introduce the fundraiser to families and educators."
+   }
+  ]
+ },
+ "grounding": {
+  "checked": 9,
+  "verified": [
+   "Arthur",
+   "Blue Haven East",
+   "Chelsea",
+   "Fender",
+   "Here's The Thing with Alec Baldwin",
+   "Joe Perry",
+   "Pasticceria Rocco",
+   "School of Rock",
+   "Zoey's Extraordinary Playlist"
+  ],
+  "removed": [],
+  "picks": 27
+ },
+ "agent_log": [
+  {
+   "step": "understand",
+   "label": "Understanding your cause",
+   "status": "done",
+   "message": "Keywords: music education, youth music, instruments, after-school programs, children",
+   "notes": []
+  },
+  {
+   "step": "tags",
+   "label": "Finding and testing taste tags",
+   "status": "done",
+   "message": "Taste tags: Music",
+   "notes": [
+    "Qloo tag search returned 41 candidate tags for 5 keywords.",
+    "AI proposed: Music, Music education, Education.",
+    "Tested 'Music': top New York places score 1.00.",
+    "Tested 'Music education': Qloo ignored it in New York (no ranking). Dropped.",
+    "Tested 'Education': Qloo ignored it in New York (no ranking). Dropped.",
+    "Tested 'Period Instruments': Qloo ignored it in New York (no ranking). Dropped.",
+    "Kept 'Music': strongest Qloo ranking."
+   ]
+  },
+  {
+   "step": "interests",
+   "label": "Matching supporter interests",
+   "status": "done",
+   "message": "Matched: School of Rock",
+   "notes": [
+    "'School of Rock' matched Qloo movie 'School of Rock'."
+   ]
+  },
+  {
+   "step": "venues",
+   "label": "Scouting venues",
+   "status": "done",
+   "message": "6 venues shortlisted from 32 places",
+   "notes": [
+    "Pulled 20 event-type places and 12 more top matches in New York.",
+    "AI screened 32 places for event fit and guest count; kept 6. Passed over: Mr. Throwback, Joffrey Ballet School, Helicopter New York City."
+   ]
+  },
+  {
+   "step": "performers",
+   "label": "Finding performers",
+   "status": "done",
+   "message": "5 performers in the generous popularity band",
+   "notes": [
+    "Generous budget → popularity band 0.55-0.90 (popularity as a fee proxy).",
+    "Qloo ignores the city filter for artists (kill test #2), so these are taste matches, not local acts."
+   ]
+  },
+  {
+   "step": "sponsors",
+   "label": "Spotting local sponsors",
+   "status": "done",
+   "message": "5 local businesses, 3 brands",
+   "notes": []
+  },
+  {
+   "step": "neighborhoods",
+   "label": "Mapping the best neighborhoods",
+   "status": "done",
+   "message": "Top areas: Chelsea, Lenox Hill, Chinatown",
+   "notes": [
+    "Aggregated 1521 heatmap cells into 6 candidate hotspots."
+   ]
+  },
+  {
+   "step": "promotion",
+   "label": "Planning promotion channels",
+   "status": "done",
+   "message": "5 podcasts and shows for outreach",
+   "notes": []
+  },
+  {
+   "step": "compose",
+   "label": "Writing your event plan",
+   "status": "done",
+   "message": "Plan written",
+   "notes": [
+    "AI wrote the plan from Qloo data only, naming picks by id (V1, P2...)."
+   ]
+  },
+  {
+   "step": "verify",
+   "label": "Checking every name against Qloo",
+   "status": "done",
+   "message": "Checked 9 names the AI wrote: 9 verified, 0 removed",
+   "notes": [
+    "Verified: Arthur, Blue Haven East, Chelsea, Fender, Here's The Thing with Alec Baldwin, Joe Perry and 3 more.",
+    "All 27 picks on the page come straight from Qloo responses."
+   ]
+  },
+  {
+   "step": "baseline",
+   "label": "Drafting a generic AI plan for comparison",
+   "status": "done",
+   "message": "Generic plan ready",
+   "notes": [
+    "Same inputs, no Qloo data: its names are unverified and shown labeled 'no data'."
+   ]
+  }
+ ],
+ "data_notes": [
+  "Performers: Matched on taste, not location: Qloo's artist insights ignore the city filter, so check availability."
+ ],
+ "meta": {
+  "seconds": 54.3,
+  "models": [
+   "minimax/minimax-m3.1-flash:free"
+  ],
+  "llm_fallbacks": []
+ }
+}

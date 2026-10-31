@@ -1,0 +1,3162 @@
+{
+ "id": "example-chicago-literacy",
+ "created_at": "2026-10-21T15:58:51.207085+00:00",
+ "inputs": {
+  "cause": "Children's literacy nonprofit that runs free reading programs and gives books to kids",
+  "city": "Chicago",
+  "guests": 120,
+  "budget": "shoestring",
+  "month": "May",
+  "interests": [
+   "Where the Wild Things Are"
+  ]
+ },
+ "profile": {
+  "keywords": [
+   "children's literacy",
+   "reading programs",
+   "books for kids",
+   "free books",
+   "early education"
+  ],
+  "taste_tags": [
+   {
+    "id": "urn:tag:genre:media:picture_books",
+    "name": "Picture books",
+    "type": "urn:tag:genre:media",
+    "popularity": 0.99990565
+   }
+  ],
+  "keyword_tags": [],
+  "org_tags": [
+   {
+    "id": "urn:tag:category:place:literacy_program",
+    "name": "Literacy program",
+    "type": "urn:tag:category:place",
+    "popularity": 0.9965127
+   },
+   {
+    "id": "urn:tag:category:place:education_center",
+    "name": "Education center",
+    "type": "urn:tag:category:place",
+    "popularity": 0.999911
+   },
+   {
+    "id": "urn:tag:category:place:education",
+    "name": "Education",
+    "type": "urn:tag:category:place",
+    "popularity": 0.9995978
+   }
+  ],
+  "interests": [
+   {
+    "id": "371445CB-D539-42A2-B3E8-11DC61870D7C",
+    "name": "Where the Wild Things Are",
+    "type": "urn:entity:book"
+   }
+  ],
+  "unresolved_interests": []
+ },
+ "sections": {
+  "venues": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "E83B7A01-15EE-4581-BA3E-2329ACF91949",
+     "name": "Swedish American Museum",
+     "kind": "place",
+     "address": "5211 N Clark St Chicago, IL 60640",
+     "neighborhood": "Edgewater",
+     "lat": 41.9766645,
+     "lon": -87.6682079,
+     "image": "https://images.qloo.com/i/E83B7A01-15EE-4581-BA3E-2329ACF91949-420x-auto.jpg",
+     "website": "http://www.swedishamericanmuseum.org/",
+     "description": "Museum preserving Swedish-American heritage through exhibits, an immigration-focused children’s museum, cultural programs, tours, and a café in Chicago.",
+     "tags": [
+      "Gift shop",
+      "Offers tours",
+      "Walkable",
+      "Non profit organization",
+      "Community oriented",
+      "Onsite services"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.925,
+      "popularity": 0.873,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": "Children’s museum, nonprofit orientation, tours, and cultural programs suit a family-focused fundraiser."
+    },
+    {
+     "id": "7B86F2E3-269D-49D2-A016-C1AB8006A59A",
+     "name": "Stony Island Arts Bank",
+     "kind": "place",
+     "address": "6760 S Stony Island Ave Chicago, IL 60649",
+     "neighborhood": "South Shore",
+     "lat": 41.7716819,
+     "lon": -87.58667109999999,
+     "image": "https://images.qloo.com/i/7B86F2E3-269D-49D2-A016-C1AB8006A59A-420x-auto.jpg",
+     "website": "http://www.stonyislandartsbank.com/",
+     "description": "Repurposed historic bank housing extensive Black cultural archives, contemporary art exhibitions, and community arts programs led by Theaster Gates and Rebuild Foundation.",
+     "tags": [
+      "Tea house",
+      "Corporate events",
+      "Adaptive reuse",
+      "Afternoon",
+      "Onsite services",
+      "Place"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.916,
+      "popularity": 0.963,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": "Adaptive historic venue supports corporate events and community arts programming."
+    },
+    {
+     "id": "25787C83-E45C-4083-9E3E-B8D9D70DDB5E",
+     "name": "Garfield Park Conservatory",
+     "kind": "place",
+     "address": "300 N Central Park Ave Chicago, IL 60624",
+     "neighborhood": "East Garfield Park",
+     "lat": 41.8862729,
+     "lon": -87.7172554,
+     "image": "https://images.qloo.com/i/25787C83-E45C-4083-9E3E-B8D9D70DDB5E-420x-auto.jpg",
+     "website": "https://garfieldconservatory.org/",
+     "description": "Large indoor botanical conservatory with eight indoor display gardens, tropical environments, extensive outdoor gardens, year-round programs, and community events.",
+     "tags": [
+      "Social community",
+      "Sustainable living",
+      "Cafe",
+      "Botany",
+      "Photography",
+      "Morning"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.915,
+      "popularity": 1.0,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": "Large botanical conservatory with themed gardens, café, and photography offers a distinctive setting."
+    },
+    {
+     "id": "40F51129-3326-49F7-A4E2-6A1148B23C17",
+     "name": "Lillstreet Art Center",
+     "kind": "place",
+     "address": "4401 N Ravenswood Ave Chicago, IL 60640",
+     "neighborhood": "Uptown",
+     "lat": 41.9616556,
+     "lon": -87.6738187,
+     "image": "https://images.qloo.com/i/40F51129-3326-49F7-A4E2-6A1148B23C17-420x-auto.jpg",
+     "website": "http://lillstreet.com/",
+     "description": "Community-oriented arts center offering classes, studios, exhibitions, camps and ceramics birthday parties for artists of all levels in a hands-on creative workspace since 1975.",
+     "tags": [
+      "Retail shop",
+      "Commercial",
+      "Tourist attraction",
+      "Functional",
+      "Culture arts",
+      "Inspiring"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.907,
+      "popularity": 0.966,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": "Community arts center hosts classes, exhibitions, camps, and children’s birthday parties."
+    },
+    {
+     "id": "98195099-6E37-47E5-BD81-7111C2482593",
+     "name": "Nevermore Park :: Home of Flyboy",
+     "kind": "place",
+     "address": "949 W 16th St Chicago, IL 60608",
+     "neighborhood": "Lower West Side",
+     "lat": 41.859772,
+     "lon": -87.6507388,
+     "image": "https://images.qloo.com/i/98195099-6E37-47E5-BD81-7111C2482593-420x-auto.jpg",
+     "website": null,
+     "description": "Small aviation-themed art museum and gallery showcasing Flyboy memorabilia and immersive exhibits on Chicago's West Side.",
+     "tags": [
+      "Tourist attraction",
+      "Good for kids",
+      "Tourist attraction",
+      "Authentic",
+      "Futuristic",
+      "All day"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.906,
+      "popularity": 0.975,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": "Family-friendly immersive aviation museum and gallery creates an engaging theme for children."
+    },
+    {
+     "id": "ECC80BB0-F989-4B25-8A09-C526F3A8790C",
+     "name": "Zhou B Art Center",
+     "kind": "place",
+     "address": "1029 W 35th St Chicago, IL 60609",
+     "neighborhood": "Bridgeport",
+     "lat": 41.8304621,
+     "lon": -87.65229409999999,
+     "image": "https://images.qloo.com/i/ECC80BB0-F989-4B25-8A09-C526F3A8790C-420x-auto.jpg",
+     "website": "http://www.zhoubartcenter.com/",
+     "description": "Multi-disciplinary art center housing galleries, artist studios, performance and event spaces plus an art café and restaurant in Chicago.",
+     "tags": [
+      "Art gallery",
+      "Chinatown",
+      "Event venue",
+      "Urban",
+      "Event halls",
+      "Performing arts theater"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.883,
+      "popularity": 0.99,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": "Multidisciplinary center provides galleries, performance spaces, event halls, and a café."
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Picture books, Where the Wild Things Are"
+  },
+  "performers": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "9EDD3C80-3D1B-4D01-9E5F-26D4FB234289",
+     "name": "The Mad Gear and Missile Kid",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/9EDD3C80-3D1B-4D01-9E5F-26D4FB234289-420x-auto.jpg",
+     "website": null,
+     "description": "The Mad Gear and Missile Kid is a fictional band created by members of My Chemical Romance, embodying a punk rock and pop punk style. It serves as a side project and a conceptual band within the My Chemical Romance universe, known for energ",
+     "tags": [
+      "Guitar",
+      "Power Pop",
+      "Alternative Punk",
+      "Rebellious",
+      "Bass",
+      "Energetic"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.89,
+      "popularity": 0.488,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "4666870B-9C31-4089-A7A2-FBC0A0C732BC",
+     "name": "Chris Murphy",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/4666870B-9C31-4089-A7A2-FBC0A0C732BC-420x-auto.jpg",
+     "website": null,
+     "description": "Chris Murphy is a Canadian musician, singer, and songwriter, best known as the lead vocalist and bassist of the alternative rock band Sloan. He has been active since the early 1990s and is recognized for his melodic bass playing and distinc",
+     "tags": [
+      "Relationships",
+      "Nostalgia",
+      "Dedicated",
+      "The Beatles",
+      "Creative",
+      "Indie Rock"
+     ],
+     "popularity_tier": "grassroots",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.889,
+      "popularity": 0.146,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "16769238-FD74-4B6A-814C-0630CBC33270",
+     "name": "Fairview",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/16769238-FD74-4B6A-814C-0630CBC33270-420x-auto.jpg",
+     "website": null,
+     "description": null,
+     "tags": [],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.887,
+      "popularity": 0.434,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "7C44BB62-2B57-41F1-B42F-46E1C162AF93",
+     "name": "Carol Cleveland Sings",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/7C44BB62-2B57-41F1-B42F-46E1C162AF93-420x-auto.jpg",
+     "website": null,
+     "description": "None",
+     "tags": [
+      "Usa",
+      "Lo - Fi",
+      "Synth",
+      "Psychedelic",
+      "Pop"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.885,
+      "popularity": 0.343,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": ""
+    },
+    {
+     "id": "C003FC53-DB76-4A3C-858B-C0D31AF9DE38",
+     "name": "Claudio Sanchez",
+     "kind": "artist",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/C003FC53-DB76-4A3C-858B-C0D31AF9DE38-420x-auto.jpg",
+     "website": null,
+     "description": "Claudio Sanchez is an American musician best known as the lead vocalist, guitarist, and primary songwriter of the progressive rock band Coheed and Cambria. He is recognized for his distinctive voice, intricate guitar work, and the conceptua",
+     "tags": [
+      "Conceptual Rock",
+      "Post-Hardcore",
+      "Conceptual Rock",
+      "The Beatles",
+      "Conceptual",
+      "Betrayal"
+     ],
+     "popularity_tier": "emerging",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.876,
+      "popularity": 0.426,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": [
+       "driven by Where the Wild Things Are (1.00)"
+      ]
+     },
+     "reason": ""
+    }
+   ],
+   "note": "Matched on taste, not location: Qloo's artist insights ignore the city filter, so check availability.",
+   "quality": "ranked",
+   "signal": "Picture books, Where the Wild Things Are",
+   "band": "shoestring budget: popularity 0.00-0.50"
+  },
+  "sponsors": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "6AA9BF26-BA7D-4DA2-9F69-F74053E62585",
+     "name": "Mariano's",
+     "kind": "place",
+     "address": "1800 W Lawrence Ave Chicago, IL 60640",
+     "neighborhood": "Lincoln Square",
+     "lat": 41.969410499999995,
+     "lon": -87.6750103,
+     "image": "https://images.qloo.com/i/6AA9BF26-BA7D-4DA2-9F69-F74053E62585-420x-auto.jpg",
+     "website": "https://www.marianos.com/stores/grocery/il/chicago/marianos-ravenswood/531/00515?cid=loc_53100515_gmb",
+     "description": "Neighborhood grocery featuring an in-store bar where shoppers can enjoy store-bought food with affordable wine and beer, plus on-site propane refills.",
+     "tags": [
+      "Self checkout",
+      "Cheese shop",
+      "Afternoon",
+      "Lively",
+      "Propane refills",
+      "Hot buffet"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.893,
+      "popularity": 0.95,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "7FDE5B2B-5EDA-4981-871E-153B5991EE36",
+     "name": "Quimby's Bookstore",
+     "kind": "place",
+     "address": "1854 W North Ave Chicago, IL 60622",
+     "neighborhood": "West Town",
+     "lat": 41.910717999999996,
+     "lon": -87.674763,
+     "image": "https://images.qloo.com/i/7FDE5B2B-5EDA-4981-871E-153B5991EE36-420x-auto.jpg",
+     "website": "http://quimbys.com/",
+     "description": "Independent bookstore specializing in offbeat, underground zines, indie comics, graphic novels and small-press titles, hosting readings, exhibitions, and community events in Chicago's Wicker Park.",
+     "tags": [
+      "Lmn wedge studio",
+      "Destination",
+      "Alt",
+      "Consignment program",
+      "Authentic",
+      "Eclectic"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.887,
+      "popularity": 0.947,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "D5273B53-1A3F-47B4-9D73-4DEAB2F0E3A2",
+     "name": "Sweet Mandy B's Bakery",
+     "kind": "place",
+     "address": "1208 W Webster Ave Chicago, IL 60614",
+     "neighborhood": "Lincoln Park",
+     "lat": 41.9217747,
+     "lon": -87.6587046,
+     "image": "https://images.qloo.com/i/D5273B53-1A3F-47B4-9D73-4DEAB2F0E3A2-420x-auto.jpg",
+     "website": "http://www.sweetmandybs.com/",
+     "description": "Welcoming women-owned neighborhood bakery offering old-fashioned cupcakes, pies, cookies and breakfast bites with coffee and pickup/delivery options.",
+     "tags": [
+      "Drive thru",
+      "Staff wear masks",
+      "Morning",
+      "Afternoon",
+      "Traditional",
+      "Mask required"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.883,
+      "popularity": 0.979,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "BD208AD6-CD51-4CE6-BDF8-536DF6A2DDE5",
+     "name": "The Original Rainbow Cone",
+     "kind": "place",
+     "address": "9233 S Western Ave Chicago, IL 60643",
+     "neighborhood": "Beverly",
+     "lat": 41.7254389,
+     "lon": -87.6820056,
+     "image": "https://images.qloo.com/i/BD208AD6-CD51-4CE6-BDF8-536DF6A2DDE5-420x-auto.jpg",
+     "website": "https://rainbowcone.com/locations/beverly/",
+     "description": "Seasonal, long-running Chicago ice cream stand famed for its signature multi-flavored cones, shakes, sundaes, and banana splits.",
+     "tags": [
+      "Quick visit",
+      "Community socializing",
+      "Ice cream",
+      "Outdoor seating",
+      "Work dinner",
+      "Takeout"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.879,
+      "popularity": 0.985,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "local business"
+    },
+    {
+     "id": "64E43D15-EB66-4D38-B385-B893D2317755",
+     "name": "Strand Bookstore",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/64E43D15-EB66-4D38-B385-B893D2317755-420x-auto.jpg",
+     "website": null,
+     "description": "Strand Bookstore is New York City's largest independent bookstore, known for its vast collection of new, used, and rare books since 1927.",
+     "tags": [
+      "Retail",
+      "Industrial Architecture",
+      "Floor-To-Ceiling Bookshelves",
+      "Classic Typography",
+      "Textured Paper",
+      "Vintage Signage"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.939,
+      "popularity": 0.935,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    },
+    {
+     "id": "8C8D91E4-F072-4F20-A5D1-566B40A20581",
+     "name": "Waterstones",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/8C8D91E4-F072-4F20-A5D1-566B40A20581-420x-auto.jpg",
+     "website": null,
+     "description": "Waterstones is the UK's leading bookseller, offering a wide range of books, stationery, gifts, and special editions both online and in stores.",
+     "tags": [
+      "Retail",
+      "Traditional Bookstore Atmosphere",
+      "Warm Lighting",
+      "Dark Wood Shelving",
+      "Cozy Nooks",
+      "Orderly Book Displays"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.938,
+      "popularity": 0.945,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    },
+    {
+     "id": "0BAC80D0-90D5-46A8-A11F-7CC58DE74963",
+     "name": "Barnes & Noble",
+     "kind": "brand",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/0BAC80D0-90D5-46A8-A11F-7CC58DE74963-420x-auto.jpg",
+     "website": null,
+     "description": "Barnes & Noble is a leading bookseller offering books, NOOK ebooks, magazines, music, movies, toys, and games through physical stores and online.",
+     "tags": [
+      "Mobile App",
+      "Online retailers of the United States",
+      "Music retailers of the United States",
+      "Barnes & Noble",
+      "Advertising Enabled",
+      "Reading App"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.938,
+      "popularity": 0.975,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "sponsor_type": "brand"
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Picture books, Where the Wild Things Are"
+  },
+  "neighborhoods": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "781A9C58-AD51-40A9-8424-1358D7C8C69F",
+     "name": "Magnificent Mile",
+     "lat": 41.88993082568807,
+     "lon": -87.6301973761468,
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.831,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "218 heatmap cells"
+      ]
+     }
+    },
+    {
+     "id": "ACBDA821-AC95-47DE-B342-33AEB57D9729",
+     "name": "Lincoln Park",
+     "lat": 41.92995690123457,
+     "lon": -87.6497474074074,
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.54,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "162 heatmap cells"
+      ]
+     }
+    },
+    {
+     "id": "36591C0C-A387-4508-9AE4-8DBAFFF918CF",
+     "name": "East Village",
+     "lat": 41.89014639072848,
+     "lon": -87.66969324503312,
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.449,
+      "popularity": null,
+      "basis": "heatmap",
+      "quality": "ranked",
+      "explain": [
+       "151 heatmap cells"
+      ]
+     }
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Picture books, Where the Wild Things Are",
+   "heat": [
+    [
+     41.88332,
+     -87.62352,
+     1.0
+    ],
+    [
+     41.94786,
+     -87.65648,
+     0.999
+    ],
+    [
+     41.8792,
+     -87.63588,
+     0.999
+    ],
+    [
+     41.89842,
+     -87.62352,
+     0.999
+    ],
+    [
+     41.9767,
+     -87.90093,
+     0.998
+    ],
+    [
+     41.89156,
+     -87.60841,
+     0.998
+    ],
+    [
+     41.88057,
+     -87.62627,
+     0.998
+    ],
+    [
+     41.88057,
+     -87.67433,
+     0.998
+    ],
+    [
+     41.88332,
+     -87.62215,
+     0.997
+    ],
+    [
+     41.88469,
+     -87.6194,
+     0.996
+    ],
+    [
+     41.87645,
+     -87.6194,
+     0.996
+    ],
+    [
+     41.88469,
+     -87.62764,
+     0.996
+    ],
+    [
+     41.86821,
+     -87.61391,
+     0.996
+    ],
+    [
+     41.86684,
+     -87.61665,
+     0.996
+    ],
+    [
+     41.8792,
+     -87.62352,
+     0.996
+    ],
+    [
+     41.78719,
+     -87.74574,
+     0.995
+    ],
+    [
+     41.88744,
+     -87.62489,
+     0.995
+    ],
+    [
+     41.88194,
+     -87.62489,
+     0.995
+    ],
+    [
+     41.88881,
+     -87.62627,
+     0.995
+    ],
+    [
+     41.88057,
+     -87.62901,
+     0.994
+    ],
+    [
+     41.85173,
+     -87.61665,
+     0.994
+    ],
+    [
+     41.88332,
+     -87.63313,
+     0.994
+    ],
+    [
+     41.79131,
+     -87.57958,
+     0.994
+    ],
+    [
+     41.8998,
+     -87.64961,
+     0.993
+    ],
+    [
+     41.92039,
+     -87.63313,
+     0.992
+    ],
+    [
+     41.88469,
+     -87.64824,
+     0.992
+    ],
+    [
+     41.8943,
+     -87.62352,
+     0.992
+    ],
+    [
+     41.89018,
+     -87.63039,
+     0.991
+    ],
+    [
+     41.88744,
+     -87.62901,
+     0.991
+    ],
+    [
+     41.94374,
+     -87.64961,
+     0.991
+    ],
+    [
+     41.89705,
+     -87.62077,
+     0.991
+    ],
+    [
+     41.86684,
+     -87.62215,
+     0.991
+    ],
+    [
+     41.92863,
+     -87.70729,
+     0.99
+    ],
+    [
+     41.94786,
+     -87.65511,
+     0.99
+    ],
+    [
+     41.88881,
+     -87.62489,
+     0.99
+    ],
+    [
+     41.82976,
+     -87.63313,
+     0.99
+    ],
+    [
+     41.88332,
+     -87.63039,
+     0.989
+    ],
+    [
+     41.88606,
+     -87.7169,
+     0.989
+    ],
+    [
+     41.86684,
+     -87.60704,
+     0.989
+    ],
+    [
+     41.88744,
+     -87.63176,
+     0.988
+    ],
+    [
+     41.94649,
+     -87.66335,
+     0.988
+    ],
+    [
+     41.92314,
+     -87.64961,
+     0.987
+    ],
+    [
+     41.89156,
+     -87.60292,
+     0.986
+    ],
+    [
+     41.85173,
+     -87.66747,
+     0.986
+    ],
+    [
+     41.88057,
+     -87.65511,
+     0.985
+    ],
+    [
+     41.8998,
+     -87.62352,
+     0.985
+    ],
+    [
+     41.79955,
+     -87.59056,
+     0.985
+    ],
+    [
+     41.96571,
+     -87.63863,
+     0.985
+    ],
+    [
+     41.91078,
+     -87.67845,
+     0.984
+    ],
+    [
+     41.87645,
+     -87.62489,
+     0.984
+    ],
+    [
+     41.88881,
+     -87.62352,
+     0.984
+    ],
+    [
+     41.88881,
+     -87.62901,
+     0.984
+    ],
+    [
+     41.91215,
+     -87.63588,
+     0.983
+    ],
+    [
+     41.90803,
+     -87.67708,
+     0.983
+    ],
+    [
+     41.88332,
+     -87.62489,
+     0.983
+    ],
+    [
+     41.88606,
+     -87.62764,
+     0.983
+    ],
+    [
+     41.88332,
+     -87.62764,
+     0.982
+    ],
+    [
+     41.87233,
+     -87.62489,
+     0.982
+    ],
+    [
+     41.89018,
+     -87.62901,
+     0.982
+    ],
+    [
+     41.88469,
+     -87.63313,
+     0.981
+    ],
+    [
+     41.89156,
+     -87.62627,
+     0.981
+    ],
+    [
+     41.88881,
+     -87.63588,
+     0.981
+    ],
+    [
+     41.88469,
+     -87.62901,
+     0.981
+    ],
+    [
+     41.92039,
+     -87.64961,
+     0.981
+    ],
+    [
+     41.90803,
+     -87.62627,
+     0.981
+    ],
+    [
+     41.8792,
+     -87.63863,
+     0.981
+    ],
+    [
+     41.90941,
+     -87.67708,
+     0.981
+    ],
+    [
+     41.88332,
+     -87.64824,
+     0.981
+    ],
+    [
+     41.89156,
+     -87.62489,
+     0.98
+    ],
+    [
+     41.93962,
+     -87.65373,
+     0.98
+    ],
+    [
+     42.01241,
+     -87.66197,
+     0.979
+    ],
+    [
+     41.88332,
+     -87.6194,
+     0.979
+    ],
+    [
+     41.89293,
+     -87.62627,
+     0.979
+    ],
+    [
+     41.96983,
+     -87.6606,
+     0.979
+    ],
+    [
+     41.90117,
+     -87.62764,
+     0.979
+    ],
+    [
+     41.94374,
+     -87.65373,
+     0.978
+    ],
+    [
+     41.8943,
+     -87.63176,
+     0.978
+    ],
+    [
+     41.90254,
+     -87.62352,
+     0.978
+    ],
+    [
+     41.88881,
+     -87.62215,
+     0.978
+    ],
+    [
+     41.88194,
+     -87.62764,
+     0.978
+    ],
+    [
+     41.8998,
+     -87.62489,
+     0.977
+    ],
+    [
+     41.92451,
+     -87.63588,
+     0.977
+    ],
+    [
+     41.8737,
+     -87.62489,
+     0.977
+    ],
+    [
+     41.89156,
+     -87.60704,
+     0.977
+    ],
+    [
+     41.89705,
+     -87.62489,
+     0.977
+    ],
+    [
+     41.88469,
+     -87.62352,
+     0.977
+    ],
+    [
+     41.88744,
+     -87.62215,
+     0.977
+    ],
+    [
+     41.78993,
+     -87.60017,
+     0.976
+    ],
+    [
+     41.99867,
+     -87.65785,
+     0.976
+    ],
+    [
+     41.90529,
+     -87.71416,
+     0.976
+    ],
+    [
+     41.8792,
+     -87.62489,
+     0.975
+    ],
+    [
+     41.88194,
+     -87.63725,
+     0.974
+    ],
+    [
+     41.89156,
+     -87.62764,
+     0.974
+    ],
+    [
+     41.88606,
+     -87.62627,
+     0.974
+    ],
+    [
+     41.89156,
+     -87.63039,
+     0.972
+    ],
+    [
+     41.86272,
+     -87.60841,
+     0.972
+    ],
+    [
+     41.89293,
+     -87.62489,
+     0.972
+    ],
+    [
+     41.88469,
+     -87.65785,
+     0.972
+    ],
+    [
+     41.86821,
+     -87.62901,
+     0.971
+    ],
+    [
+     41.89842,
+     -87.62215,
+     0.971
+    ],
+    [
+     41.85722,
+     -87.65785,
+     0.97
+    ],
+    [
+     41.79955,
+     -87.58781,
+     0.97
+    ],
+    [
+     41.89018,
+     -87.62489,
+     0.97
+    ],
+    [
+     41.89293,
+     -87.63039,
+     0.969
+    ],
+    [
+     41.89568,
+     -87.62489,
+     0.969
+    ],
+    [
+     41.8943,
+     -87.62489,
+     0.969
+    ],
+    [
+     41.99043,
+     -87.6606,
+     0.969
+    ],
+    [
+     41.89293,
+     -87.62764,
+     0.968
+    ],
+    [
+     41.88881,
+     -87.61391,
+     0.967
+    ],
+    [
+     41.89018,
+     -87.62764,
+     0.967
+    ],
+    [
+     41.88881,
+     -87.62764,
+     0.967
+    ],
+    [
+     41.86272,
+     -87.61665,
+     0.967
+    ],
+    [
+     41.89568,
+     -87.62352,
+     0.967
+    ],
+    [
+     41.88744,
+     -87.65236,
+     0.967
+    ],
+    [
+     41.97807,
+     -87.64961,
+     0.966
+    ],
+    [
+     41.8792,
+     -87.63039,
+     0.966
+    ],
+    [
+     41.8531,
+     -87.62077,
+     0.966
+    ],
+    [
+     42.01378,
+     -87.66335,
+     0.966
+    ],
+    [
+     41.85173,
+     -87.63313,
+     0.966
+    ],
+    [
+     41.96434,
+     -87.63863,
+     0.965
+    ],
+    [
+     41.91078,
+     -87.64,
+     0.965
+    ],
+    [
+     41.92589,
+     -87.64961,
+     0.965
+    ],
+    [
+     41.91627,
+     -87.6757,
+     0.965
+    ],
+    [
+     41.96846,
+     -87.67982,
+     0.965
+    ],
+    [
+     41.88606,
+     -87.62901,
+     0.965
+    ],
+    [
+     41.86958,
+     -87.67021,
+     0.964
+    ],
+    [
+     41.82976,
+     -87.63451,
+     0.964
+    ],
+    [
+     41.8943,
+     -87.61528,
+     0.964
+    ],
+    [
+     41.88606,
+     -87.62489,
+     0.963
+    ],
+    [
+     41.87782,
+     -87.62077,
+     0.963
+    ],
+    [
+     41.88744,
+     -87.62764,
+     0.963
+    ],
+    [
+     41.89018,
+     -87.63176,
+     0.962
+    ],
+    [
+     41.89156,
+     -87.6194,
+     0.962
+    ],
+    [
+     42.00966,
+     -87.67021,
+     0.962
+    ],
+    [
+     41.89156,
+     -87.63176,
+     0.962
+    ],
+    [
+     41.88606,
+     -87.64824,
+     0.962
+    ],
+    [
+     41.97807,
+     -87.90642,
+     0.961
+    ],
+    [
+     41.90391,
+     -87.69768,
+     0.961
+    ],
+    [
+     41.88606,
+     -87.62077,
+     0.96
+    ],
+    [
+     41.8998,
+     -87.62764,
+     0.96
+    ],
+    [
+     41.88194,
+     -87.62352,
+     0.96
+    ],
+    [
+     41.92451,
+     -87.69905,
+     0.96
+    ],
+    [
+     41.87233,
+     -87.64961,
+     0.959
+    ],
+    [
+     41.94649,
+     -87.65511,
+     0.959
+    ],
+    [
+     41.88881,
+     -87.63039,
+     0.959
+    ],
+    [
+     41.89293,
+     -87.61391,
+     0.958
+    ],
+    [
+     41.96846,
+     -87.64412,
+     0.958
+    ],
+    [
+     41.9149,
+     -87.63451,
+     0.958
+    ],
+    [
+     41.94923,
+     -87.66335,
+     0.958
+    ],
+    [
+     41.87645,
+     -87.62764,
+     0.958
+    ],
+    [
+     41.89156,
+     -87.62352,
+     0.957
+    ],
+    [
+     41.87508,
+     -87.65648,
+     0.957
+    ],
+    [
+     41.88881,
+     -87.6194,
+     0.957
+    ],
+    [
+     41.89293,
+     -87.62352,
+     0.957
+    ],
+    [
+     41.88744,
+     -87.62352,
+     0.957
+    ],
+    [
+     41.89156,
+     -87.63313,
+     0.957
+    ],
+    [
+     41.8998,
+     -87.67982,
+     0.956
+    ],
+    [
+     41.89018,
+     -87.62352,
+     0.955
+    ],
+    [
+     41.88469,
+     -87.63176,
+     0.955
+    ],
+    [
+     41.85585,
+     -87.67296,
+     0.955
+    ],
+    [
+     41.90941,
+     -87.6757,
+     0.955
+    ],
+    [
+     41.88881,
+     -87.63176,
+     0.955
+    ],
+    [
+     41.96983,
+     -87.68944,
+     0.955
+    ],
+    [
+     41.92589,
+     -87.64,
+     0.955
+    ],
+    [
+     41.96846,
+     -87.6606,
+     0.954
+    ],
+    [
+     41.8792,
+     -87.62901,
+     0.954
+    ],
+    [
+     41.89842,
+     -87.62489,
+     0.954
+    ],
+    [
+     41.97945,
+     -87.67021,
+     0.954
+    ],
+    [
+     41.79543,
+     -87.57683,
+     0.953
+    ],
+    [
+     41.97945,
+     -87.66884,
+     0.952
+    ],
+    [
+     41.96983,
+     -87.65923,
+     0.952
+    ],
+    [
+     41.87782,
+     -87.63039,
+     0.952
+    ],
+    [
+     41.8792,
+     -87.64,
+     0.952
+    ],
+    [
+     41.91078,
+     -87.67708,
+     0.951
+    ],
+    [
+     41.96709,
+     -87.68806,
+     0.95
+    ],
+    [
+     41.83662,
+     -87.68394,
+     0.95
+    ],
+    [
+     41.91902,
+     -87.63725,
+     0.949
+    ],
+    [
+     41.79955,
+     -87.58919,
+     0.949
+    ],
+    [
+     41.98631,
+     -87.65236,
+     0.949
+    ],
+    [
+     41.91215,
+     -87.63176,
+     0.948
+    ],
+    [
+     41.88744,
+     -87.64687,
+     0.948
+    ],
+    [
+     41.90941,
+     -87.65236,
+     0.948
+    ],
+    [
+     41.8792,
+     -87.63313,
+     0.947
+    ],
+    [
+     41.91078,
+     -87.63176,
+     0.947
+    ],
+    [
+     41.88057,
+     -87.62764,
+     0.947
+    ],
+    [
+     41.83937,
+     -87.60704,
+     0.947
+    ],
+    [
+     41.87782,
+     -87.62627,
+     0.947
+    ],
+    [
+     41.8792,
+     -87.61665,
+     0.947
+    ],
+    [
+     41.89842,
+     -87.61665,
+     0.947
+    ],
+    [
+     41.89156,
+     -87.60567,
+     0.947
+    ],
+    [
+     41.89293,
+     -87.62901,
+     0.946
+    ],
+    [
+     41.88057,
+     -87.62215,
+     0.946
+    ],
+    [
+     41.90254,
+     -87.62215,
+     0.945
+    ],
+    [
+     41.8531,
+     -87.65099,
+     0.945
+    ],
+    [
+     41.93413,
+     -87.65373,
+     0.945
+    ],
+    [
+     41.88469,
+     -87.63039,
+     0.945
+    ],
+    [
+     41.91765,
+     -87.64824,
+     0.944
+    ],
+    [
+     41.90391,
+     -87.62901,
+     0.944
+    ],
+    [
+     41.94923,
+     -87.65923,
+     0.944
+    ],
+    [
+     41.87645,
+     -87.62077,
+     0.943
+    ],
+    [
+     41.88606,
+     -87.65236,
+     0.943
+    ],
+    [
+     41.91765,
+     -87.63313,
+     0.943
+    ],
+    [
+     41.94237,
+     -87.63725,
+     0.943
+    ],
+    [
+     41.8531,
+     -87.63176,
+     0.943
+    ],
+    [
+     41.88744,
+     -87.63039,
+     0.942
+    ],
+    [
+     41.90254,
+     -87.62901,
+     0.942
+    ],
+    [
+     41.98769,
+     -87.65373,
+     0.942
+    ],
+    [
+     41.89156,
+     -87.60017,
+     0.942
+    ],
+    [
+     41.89293,
+     -87.63176,
+     0.942
+    ],
+    [
+     41.88057,
+     -87.62489,
+     0.941
+    ],
+    [
+     41.92314,
+     -87.70866,
+     0.941
+    ],
+    [
+     41.8943,
+     -87.63725,
+     0.941
+    ],
+    [
+     41.88881,
+     -87.63313,
+     0.941
+    ],
+    [
+     41.83113,
+     -87.63313,
+     0.941
+    ],
+    [
+     41.88332,
+     -87.64961,
+     0.94
+    ],
+    [
+     41.97533,
+     -87.90505,
+     0.94
+    ],
+    [
+     41.88469,
+     -87.65236,
+     0.94
+    ],
+    [
+     41.94923,
+     -87.64961,
+     0.94
+    ],
+    [
+     41.88057,
+     -87.61665,
+     0.94
+    ],
+    [
+     41.90666,
+     -87.67158,
+     0.939
+    ],
+    [
+     41.87782,
+     -87.63176,
+     0.939
+    ],
+    [
+     41.89842,
+     -87.61253,
+     0.939
+    ],
+    [
+     41.91215,
+     -87.63451,
+     0.939
+    ],
+    [
+     41.96983,
+     -87.65785,
+     0.939
+    ],
+    [
+     41.88469,
+     -87.66609,
+     0.939
+    ],
+    [
+     41.94649,
+     -87.65648,
+     0.938
+    ],
+    [
+     41.89293,
+     -87.62077,
+     0.936
+    ],
+    [
+     41.96983,
+     -87.71965,
+     0.936
+    ],
+    [
+     41.89568,
+     -87.62627,
+     0.936
+    ],
+    [
+     41.83113,
+     -87.65648,
+     0.936
+    ],
+    [
+     41.88744,
+     -87.63451,
+     0.936
+    ],
+    [
+     41.91353,
+     -87.64824,
+     0.935
+    ],
+    [
+     41.88469,
+     -87.66472,
+     0.935
+    ],
+    [
+     41.89018,
+     -87.67296,
+     0.934
+    ],
+    [
+     41.8792,
+     -87.62627,
+     0.934
+    ],
+    [
+     41.8943,
+     -87.62215,
+     0.934
+    ],
+    [
+     41.89293,
+     -87.62215,
+     0.934
+    ],
+    [
+     41.97807,
+     -87.66884,
+     0.934
+    ],
+    [
+     41.92314,
+     -87.64549,
+     0.933
+    ],
+    [
+     41.89293,
+     -87.63588,
+     0.933
+    ],
+    [
+     41.90803,
+     -87.67433,
+     0.933
+    ],
+    [
+     41.90941,
+     -87.63451,
+     0.933
+    ],
+    [
+     41.88744,
+     -87.62627,
+     0.932
+    ],
+    [
+     41.98219,
+     -87.85835,
+     0.932
+    ],
+    [
+     41.97807,
+     -87.86797,
+     0.932
+    ],
+    [
+     41.91215,
+     -87.64824,
+     0.932
+    ],
+    [
+     41.89842,
+     -87.62764,
+     0.931
+    ],
+    [
+     41.88469,
+     -87.62489,
+     0.931
+    ],
+    [
+     41.82014,
+     -87.62352,
+     0.931
+    ],
+    [
+     41.91078,
+     -87.6757,
+     0.931
+    ],
+    [
+     41.85448,
+     -87.63451,
+     0.931
+    ],
+    [
+     41.89568,
+     -87.62077,
+     0.931
+    ],
+    [
+     41.92726,
+     -87.63588,
+     0.931
+    ],
+    [
+     41.71028,
+     -87.67982,
+     0.931
+    ],
+    [
+     41.88469,
+     -87.66197,
+     0.93
+    ],
+    [
+     41.92177,
+     -87.66472,
+     0.93
+    ],
+    [
+     41.89156,
+     -87.60979,
+     0.93
+    ],
+    [
+     41.88469,
+     -87.61391,
+     0.93
+    ],
+    [
+     41.93962,
+     -87.71004,
+     0.929
+    ],
+    [
+     41.88606,
+     -87.64961,
+     0.929
+    ],
+    [
+     41.93962,
+     -87.64412,
+     0.929
+    ],
+    [
+     41.89018,
+     -87.63725,
+     0.929
+    ],
+    [
+     41.89568,
+     -87.62215,
+     0.929
+    ],
+    [
+     41.85173,
+     -87.61803,
+     0.928
+    ],
+    [
+     41.97945,
+     -87.74712,
+     0.927
+    ],
+    [
+     41.9355,
+     -87.66335,
+     0.927
+    ],
+    [
+     41.89705,
+     -87.62627,
+     0.927
+    ],
+    [
+     41.8998,
+     -87.62215,
+     0.926
+    ],
+    [
+     41.87782,
+     -87.63451,
+     0.926
+    ],
+    [
+     41.88057,
+     -87.63176,
+     0.926
+    ],
+    [
+     41.93962,
+     -87.65099,
+     0.926
+    ],
+    [
+     41.86684,
+     -87.60841,
+     0.925
+    ],
+    [
+     41.88057,
+     -87.63039,
+     0.925
+    ],
+    [
+     41.8792,
+     -87.6194,
+     0.925
+    ],
+    [
+     41.90803,
+     -87.66747,
+     0.925
+    ],
+    [
+     41.88744,
+     -87.61391,
+     0.925
+    ],
+    [
+     41.94786,
+     -87.65373,
+     0.925
+    ],
+    [
+     41.97533,
+     -87.89131,
+     0.924
+    ],
+    [
+     41.93962,
+     -87.6606,
+     0.924
+    ],
+    [
+     41.8998,
+     -87.62627,
+     0.924
+    ],
+    [
+     41.87233,
+     -87.62901,
+     0.924
+    ],
+    [
+     41.94511,
+     -87.64961,
+     0.923
+    ],
+    [
+     41.8998,
+     -87.63039,
+     0.923
+    ],
+    [
+     41.8943,
+     -87.6194,
+     0.922
+    ],
+    [
+     41.88606,
+     -87.63176,
+     0.922
+    ],
+    [
+     41.95061,
+     -87.73064,
+     0.922
+    ],
+    [
+     41.86684,
+     -87.61391,
+     0.921
+    ],
+    [
+     41.90803,
+     -87.65236,
+     0.921
+    ],
+    [
+     41.83937,
+     -87.64961,
+     0.921
+    ],
+    [
+     41.89293,
+     -87.6194,
+     0.92
+    ],
+    [
+     41.8792,
+     -87.62077,
+     0.92
+    ],
+    [
+     41.91078,
+     -87.63451,
+     0.92
+    ],
+    [
+     41.9767,
+     -87.66884,
+     0.92
+    ],
+    [
+     41.89293,
+     -87.63451,
+     0.919
+    ],
+    [
+     41.88744,
+     -87.6194,
+     0.919
+    ],
+    [
+     41.8943,
+     -87.62077,
+     0.919
+    ],
+    [
+     41.93001,
+     -87.6963,
+     0.919
+    ],
+    [
+     41.93001,
+     -87.63451,
+     0.919
+    ],
+    [
+     41.838,
+     -87.60567,
+     0.918
+    ],
+    [
+     41.91902,
+     -87.64824,
+     0.918
+    ],
+    [
+     41.89018,
+     -87.62077,
+     0.918
+    ],
+    [
+     41.85722,
+     -87.64137,
+     0.918
+    ],
+    [
+     41.93687,
+     -87.64412,
+     0.918
+    ],
+    [
+     41.94099,
+     -87.76634,
+     0.918
+    ],
+    [
+     41.90254,
+     -87.63039,
+     0.917
+    ],
+    [
+     41.85722,
+     -87.63451,
+     0.917
+    ],
+    [
+     41.88881,
+     -87.65236,
+     0.917
+    ],
+    [
+     41.88606,
+     -87.62352,
+     0.916
+    ],
+    [
+     41.79955,
+     -87.59743,
+     0.916
+    ],
+    [
+     41.89156,
+     -87.64687,
+     0.916
+    ],
+    [
+     41.92177,
+     -87.65236,
+     0.915
+    ],
+    [
+     41.85997,
+     -87.69081,
+     0.915
+    ],
+    [
+     41.90666,
+     -87.67021,
+     0.914
+    ],
+    [
+     41.75972,
+     -87.57958,
+     0.914
+    ],
+    [
+     41.86958,
+     -87.63313,
+     0.914
+    ],
+    [
+     41.9355,
+     -87.64412,
+     0.914
+    ],
+    [
+     41.92726,
+     -87.70729,
+     0.913
+    ],
+    [
+     41.89018,
+     -87.6194,
+     0.913
+    ],
+    [
+     41.87233,
+     -87.62627,
+     0.913
+    ],
+    [
+     41.90117,
+     -87.66335,
+     0.913
+    ],
+    [
+     41.89705,
+     -87.69081,
+     0.913
+    ],
+    [
+     41.92039,
+     -87.63725,
+     0.913
+    ],
+    [
+     41.90941,
+     -87.65923,
+     0.912
+    ],
+    [
+     41.89156,
+     -87.68257,
+     0.912
+    ],
+    [
+     41.88332,
+     -87.65785,
+     0.912
+    ],
+    [
+     41.87782,
+     -87.62901,
+     0.912
+    ],
+    [
+     41.90529,
+     -87.63039,
+     0.911
+    ],
+    [
+     41.93276,
+     -87.70729,
+     0.911
+    ],
+    [
+     41.93001,
+     -87.70729,
+     0.91
+    ],
+    [
+     41.89156,
+     -87.60429,
+     0.91
+    ],
+    [
+     41.89568,
+     -87.63039,
+     0.91
+    ],
+    [
+     41.94237,
+     -87.64961,
+     0.91
+    ],
+    [
+     41.88606,
+     -87.65785,
+     0.91
+    ],
+    [
+     41.8943,
+     -87.63588,
+     0.91
+    ],
+    [
+     41.89018,
+     -87.62627,
+     0.91
+    ],
+    [
+     41.8943,
+     -87.62627,
+     0.909
+    ],
+    [
+     41.93001,
+     -87.70866,
+     0.908
+    ],
+    [
+     41.88332,
+     -87.63176,
+     0.908
+    ],
+    [
+     41.78993,
+     -87.58232,
+     0.908
+    ],
+    [
+     41.8792,
+     -87.63176,
+     0.908
+    ],
+    [
+     41.92451,
+     -87.70866,
+     0.908
+    ],
+    [
+     41.88881,
+     -87.63451,
+     0.908
+    ],
+    [
+     41.88057,
+     -87.62352,
+     0.907
+    ],
+    [
+     41.88744,
+     -87.63313,
+     0.907
+    ],
+    [
+     41.85173,
+     -87.61528,
+     0.907
+    ],
+    [
+     41.85173,
+     -87.61116,
+     0.906
+    ],
+    [
+     41.93825,
+     -87.64412,
+     0.906
+    ],
+    [
+     41.8998,
+     -87.72102,
+     0.906
+    ],
+    [
+     41.8943,
+     -87.63863,
+     0.906
+    ],
+    [
+     41.93138,
+     -87.65785,
+     0.906
+    ],
+    [
+     41.88332,
+     -87.62627,
+     0.905
+    ],
+    [
+     41.91078,
+     -87.62627,
+     0.905
+    ],
+    [
+     41.94923,
+     -87.65785,
+     0.905
+    ],
+    [
+     41.91765,
+     -87.7018,
+     0.905
+    ],
+    [
+     41.89568,
+     -87.63176,
+     0.905
+    ],
+    [
+     41.97258,
+     -87.68257,
+     0.904
+    ],
+    [
+     42.00005,
+     -87.92015,
+     0.904
+    ],
+    [
+     41.88332,
+     -87.65099,
+     0.903
+    ],
+    [
+     41.88469,
+     -87.64961,
+     0.903
+    ],
+    [
+     41.93276,
+     -87.65373,
+     0.902
+    ],
+    [
+     41.94237,
+     -87.70729,
+     0.9
+    ],
+    [
+     41.98906,
+     -87.65648,
+     0.9
+    ],
+    [
+     41.95061,
+     -87.67982,
+     0.9
+    ],
+    [
+     41.86821,
+     -87.62627,
+     0.9
+    ],
+    [
+     41.88469,
+     -87.62215,
+     0.899
+    ],
+    [
+     41.94374,
+     -87.66472,
+     0.899
+    ],
+    [
+     41.87096,
+     -87.65923,
+     0.899
+    ],
+    [
+     41.89568,
+     -87.66747,
+     0.899
+    ],
+    [
+     41.88881,
+     -87.66472,
+     0.899
+    ],
+    [
+     41.96434,
+     -87.68669,
+     0.899
+    ],
+    [
+     41.89156,
+     -87.62901,
+     0.898
+    ],
+    [
+     41.89568,
+     -87.68394,
+     0.898
+    ],
+    [
+     41.86134,
+     -87.61665,
+     0.897
+    ],
+    [
+     41.95061,
+     -87.75948,
+     0.897
+    ],
+    [
+     41.82152,
+     -87.59605,
+     0.897
+    ],
+    [
+     41.97945,
+     -87.90779,
+     0.896
+    ],
+    [
+     41.88194,
+     -87.62215,
+     0.895
+    ],
+    [
+     41.89568,
+     -87.62764,
+     0.895
+    ],
+    [
+     41.93413,
+     -87.67845,
+     0.893
+    ],
+    [
+     41.93001,
+     -87.64412,
+     0.893
+    ],
+    [
+     41.92863,
+     -87.64961,
+     0.893
+    ],
+    [
+     41.78993,
+     -87.59605,
+     0.893
+    ],
+    [
+     41.91902,
+     -87.69768,
+     0.893
+    ],
+    [
+     41.82976,
+     -87.65236,
+     0.893
+    ],
+    [
+     41.91078,
+     -87.65236,
+     0.893
+    ],
+    [
+     41.97395,
+     -87.64824,
+     0.893
+    ],
+    [
+     41.92039,
+     -87.64275,
+     0.892
+    ],
+    [
+     41.95473,
+     -87.66197,
+     0.892
+    ],
+    [
+     41.94511,
+     -87.65511,
+     0.892
+    ],
+    [
+     41.89842,
+     -87.62627,
+     0.892
+    ],
+    [
+     41.90803,
+     -87.63451,
+     0.892
+    ],
+    [
+     41.8998,
+     -87.68669,
+     0.892
+    ],
+    [
+     41.92863,
+     -87.64275,
+     0.891
+    ],
+    [
+     41.89568,
+     -87.67296,
+     0.891
+    ],
+    [
+     41.93276,
+     -87.64549,
+     0.89
+    ],
+    [
+     41.94786,
+     -87.64961,
+     0.89
+    ],
+    [
+     41.96022,
+     -87.67296,
+     0.89
+    ],
+    [
+     41.92314,
+     -87.69768,
+     0.89
+    ],
+    [
+     41.90803,
+     -87.6757,
+     0.889
+    ],
+    [
+     41.88744,
+     -87.64961,
+     0.889
+    ]
+   ]
+  },
+  "promotion": {
+   "status": "ok",
+   "items": [
+    {
+     "id": "B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA",
+     "name": "Radiolab",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA-420x-auto.jpg",
+     "website": null,
+     "description": "Exploring deep questions through investigative journalism, Radiolab blends science, philosophy, and innovative sound design.",
+     "tags": [
+      "Podcasts",
+      "Natural Sciences",
+      "Society & Culture",
+      "Documentary",
+      "Science"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.926,
+      "popularity": 0.999,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    },
+    {
+     "id": "6E99A269-3419-468B-9D4F-13E61B51D376",
+     "name": "Jersey Shore",
+     "kind": "tv_show",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/6E99A269-3419-468B-9D4F-13E61B51D376-420x-auto.jpg",
+     "website": null,
+     "description": "Jersey Shore is a 2009 reality television series created and produced for MTV that follows a core group of young adults living together on the Jersey Shore. The cast—originally including Nicole \"Snooki\" Polizzi, Michael \"The Situation\" Sorr",
+     "tags": [
+      "Hookups",
+      "Gritty",
+      "The outsider",
+      "Nightclub glittering",
+      "Seaside heights",
+      "Gossipy"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.946,
+      "popularity": 0.784,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "tv_show"
+    },
+    {
+     "id": "986E88AC-B8F1-496E-946A-AFA7F449EF95",
+     "name": "Ear Hustle",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/986E88AC-B8F1-496E-946A-AFA7F449EF95-420x-auto.jpg",
+     "website": null,
+     "description": "A raw and often funny peek into life inside prison, featuring stories from incarcerated individuals and their experiences.",
+     "tags": [
+      "Podcasts",
+      "Documentary",
+      "Society & Culture"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.925,
+      "popularity": 0.996,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    },
+    {
+     "id": "6C0FF17A-35B6-48ED-AA14-62EA91623AB3",
+     "name": "Kenan & Kel",
+     "kind": "tv_show",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/6C0FF17A-35B6-48ED-AA14-62EA91623AB3-420x-auto.jpg",
+     "website": null,
+     "description": "Kenan & Kel (1996) is a 1990s Nickelodeon sitcom starring Kenan Thompson and Kel Mitchell that blends broad physical comedy with teen-oriented sitcom setups. Directed by a team of episodic television directors, the series follows two high-s",
+     "tags": [
+      "Joke",
+      "Crucifix necklace",
+      "Teenagers",
+      "Strictness",
+      "School",
+      "Boy wears a necklace"
+     ],
+     "popularity_tier": "established",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.942,
+      "popularity": 0.787,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "tv_show"
+    },
+    {
+     "id": "464CBF2D-84DD-4DFE-BA75-26FA226CBD00",
+     "name": "Homecoming",
+     "kind": "podcast",
+     "address": null,
+     "neighborhood": null,
+     "lat": null,
+     "lon": null,
+     "image": "https://images.qloo.com/i/464CBF2D-84DD-4DFE-BA75-26FA226CBD00-420x-auto.jpg",
+     "website": null,
+     "description": "An enigmatic narrative exploring the lives of a caseworker, her supervisor, and a soldier through calls and therapy sessions.",
+     "tags": [
+      "Fiction",
+      "Drama",
+      "Podcasts",
+      "TV & Film"
+     ],
+     "popularity_tier": "well known",
+     "evidence": {
+      "signal": "Picture books, Where the Wild Things Are",
+      "affinity": 0.925,
+      "popularity": 0.982,
+      "basis": "affinity",
+      "quality": "ranked",
+      "explain": []
+     },
+     "reason": "",
+     "channel": "podcast"
+    }
+   ],
+   "note": "",
+   "quality": "ranked",
+   "signal": "Picture books, Where the Wild Things Are"
+  }
+ },
+ "plan": {
+  "event_name": "Wild Pages Story Day",
+  "tagline": "Read, imagine, and give every child a story to take home.",
+  "concept": "Host a family-friendly afternoon for 120 guests at Swedish American Museum, combining picture-book readings, a children’s craft station, and a small live music set. Guests can donate at the welcome table and receive a book to read with a child at home.",
+  "format": "Saturday afternoon family social with readings, activities, and live music, approximately 3 hours",
+  "date_window": "A Saturday in May, ideally 2:00 PM–5:00 PM",
+  "taste_summary": "Supporters enjoy picture books and a strong interest in Where the Wild Things Are, suggesting a playful, story-centered celebration. The program should feel warm, imaginative, and easy for families to join.",
+  "headline_venue_id": "E83B7A01-15EE-4581-BA3E-2329ACF91949",
+  "headline_performer_id": "9EDD3C80-3D1B-4D01-9E5F-26D4FB234289",
+  "reasons": {
+   "E83B7A01-15EE-4581-BA3E-2329ACF91949": "Children’s museum, nonprofit orientation, tours, and cultural programs suit a family-focused literacy fundraiser.",
+   "9EDD3C80-3D1B-4D01-9E5F-26D4FB234289": "An energetic emerging act can provide a short, affordable family-friendly music moment.",
+   "7FDE5B2B-5EDA-4981-871E-153B5991EE36": "Bookstore expertise and destination appeal align closely with a picture-book reading event.",
+   "64E43D15-EB66-4D38-B385-B893D2317755": "A recognizable bookshop brand can support the event with books and a visible retail presence.",
+   "8C8D91E4-F072-4F20-A5D1-566B40A20581": "A traditional bookstore atmosphere reinforces the event’s reading-centered identity.",
+   "0BAC80D0-90D5-46A8-A11F-7CC58DE74963": "A major bookseller can provide broad audience recognition and potential in-kind support.",
+   "6AA9BF26-BA7D-4DA2-9F69-F74053E62585": "A lively local business can help provide refreshments and promote the event to families.",
+   "D5273B53-1A3F-47B4-9D73-4DEAB2F0E3A2": "Morning and afternoon availability makes bakery refreshments practical for a family program.",
+   "BD208AD6-CD51-4CE6-BDF8-536DF6A2DDE5": "Ice cream and community socializing can attract families while adding a memorable treat.",
+   "781A9C58-AD51-40A9-8424-1358D7C8C69F": "A well-known Chicago destination can help attract visitors and neighborhood supporters.",
+   "B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA": "Storytelling, society, and culture themes can inspire podcast-style promotional content.",
+   "6C0FF17A-35B6-48ED-AA14-62EA91623AB3": "A lighthearted, family-aware show can support a playful promotional partnership.",
+   "986E88AC-B8F1-496E-946A-AFA7F449EF95": "Documentary storytelling can help present the nonprofit’s impact in a conversational format."
+  },
+  "run_of_show": [
+   {
+    "time": "2:00 PM",
+    "title": "Welcome and story launch",
+    "detail": "Check in, receive a reading passport, and hear the event goal and program overview."
+   },
+   {
+    "time": "2:20 PM",
+    "title": "Picture-book reading hour",
+    "detail": "Facilitators share picture books, including a featured reading inspired by Where the Wild Things Are."
+   },
+   {
+    "time": "3:00 PM",
+    "title": "Family reading workshop",
+    "detail": "Guests create simple story prompts and practice reading together with their children."
+   },
+   {
+    "time": "3:30 PM",
+    "title": "Children’s craft and book table",
+    "detail": "Kids make bookmarks and character masks while families browse donated books."
+   },
+   {
+    "time": "4:00 PM",
+    "title": "Live music set",
+    "detail": "The Mad Gear and Missile Kid performs a short set for children and adults."
+   },
+   {
+    "time": "4:30 PM",
+    "title": "Give a book, share a story",
+    "detail": "Guests make a donation, choose a book, and take home a simple family reading activity."
+   }
+  ],
+  "promotion_angles": [
+   {
+    "id": "B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA",
+    "angle": "Create short podcast-style clips about why early reading matters, featuring brief read-alouds and guest reflections."
+   },
+   {
+    "id": "986E88AC-B8F1-496E-946A-AFA7F449EF95",
+    "angle": "Share a documentary-style profile of a family using the nonprofit’s free reading programs and invite guests to join the celebration."
+   },
+   {
+    "id": "6C0FF17A-35B6-48ED-AA14-62EA91623AB3",
+    "angle": "Use playful, kid-friendly promotional clips featuring picture-book characters, simple jokes, and reading challenges."
+   },
+   {
+    "id": "6E99A269-3419-468B-9D4F-13E61B51D376",
+    "angle": "Invite local creators to share a lively “family night out” invitation while keeping the campaign welcoming for families."
+   },
+   {
+    "id": "464CBF2D-84DD-4DFE-BA75-26FA226CBD00",
+    "angle": "Tell short, dramatic story-based updates about children discovering books and reading together at home."
+   }
+  ],
+  "sponsor_pitch": {
+   "subject": "Bring a story to life: support Wild Pages Story Day",
+   "opening": "Your organization can help 120 families celebrate children’s literacy at Swedish American Museum in May. The afternoon combines picture-book readings, creative activities, live music, and book donations for kids.",
+   "audience": "Supporters show a clear preference for picture books and an interest in Where the Wild Things Are. Your audience and event visitors can connect through a welcoming, family-centered experience centered on stories, learning, and community.",
+   "benefits": [
+    "Reach families and book-loving supporters",
+    "Offer a family-friendly community platform",
+    "Receive visible recognition at the event",
+    "Connect your brand with children’s literacy"
+   ],
+   "ask": "Please consider supporting the event with a small cash contribution, in-kind books, refreshments, or a book giveaway. Together, we can make sure more children leave with a story of their own."
+  }
+ },
+ "baseline": {
+  "status": "ok",
+  "model": "minimax/minimax-m3.1-flash:free",
+  "event_name": "Wild Things Story Night",
+  "concept": "Host an affordable, family-friendly reading festival inspired by Where the Wild Things Are, with book giveaways and free literacy activities. Turn donated space, books, and volunteer support into a memorable May fundraising event.",
+  "venues": [
+   {
+    "name": "Harold Washington Library Center",
+    "reason": "Central, accessible venue with reading spaces and potential community partnerships"
+   },
+   {
+    "name": "Sherman Park Conservatory",
+    "reason": "Offers flexible gathering areas, gardens, and low-cost community programming options"
+   },
+   {
+    "name": "Logan Square Park",
+    "reason": "Free outdoor setting suitable for readings, crafts, and book giveaways"
+   }
+  ],
+  "performers": [
+   {
+    "name": "Chicago Story Tellers",
+    "reason": "Local storytelling ensemble can engage families with imaginative readings"
+   },
+   {
+    "name": "Student readers from local schools",
+    "reason": "Showcases young literacy talent and strengthens community participation"
+   },
+   {
+    "name": "Folk musician trio",
+    "reason": "Provides inexpensive, child-friendly music for readings and activities"
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Chicago Public Library Foundation",
+    "reason": "Natural literacy partner offering promotion, books, or event support"
+   },
+   {
+    "name": "A local independent bookstore",
+    "reason": "Can donate books, display space, and help recruit volunteers"
+   },
+   {
+    "name": "Neighborhood coffee roaster",
+    "reason": "Small cash sponsorship could cover refreshments and printing"
+   },
+   {
+    "name": "Chicago arts council",
+    "reason": "May provide grants, reduced-cost performers, or publicity"
+   }
+  ],
+  "promotion": [
+   {
+    "name": "Neighborhood schools and libraries",
+    "reason": "Direct families to the event through trusted community channels"
+   },
+   {
+    "name": "Free Chicago community calendars",
+    "reason": "Low-cost listings can reach families interested in free activities"
+   },
+   {
+    "name": "Social media reading challenge",
+    "reason": "User-generated book photos can build awareness and donations"
+   },
+   {
+    "name": "Local radio morning show",
+    "reason": "Live interview may highlight literacy impact and event details"
+   }
+  ]
+ },
+ "grounding": {
+  "checked": 16,
+  "verified": [
+   "Barnes & Noble",
+   "Ear Hustle",
+   "Homecoming",
+   "Jersey Shore",
+   "Kenan & Kel",
+   "Magnificent Mile",
+   "Mariano's",
+   "Quimby's Bookstore",
+   "Radiolab",
+   "Strand Bookstore",
+   "Swedish American Museum",
+   "Sweet Mandy B's Bakery",
+   "The Mad Gear and Missile Kid",
+   "The Original Rainbow Cone",
+   "Waterstones",
+   "Where the Wild Things Are"
+  ],
+  "removed": [],
+  "picks": 26
+ },
+ "agent_log": [
+  {
+   "step": "understand",
+   "label": "Understanding your cause",
+   "status": "done",
+   "message": "Keywords: children's literacy, reading programs, books for kids, free books, early education",
+   "notes": []
+  },
+  {
+   "step": "tags",
+   "label": "Finding and testing taste tags",
+   "status": "done",
+   "message": "Taste tags: Picture books",
+   "notes": [
+    "Qloo tag search returned 47 candidate tags for 5 keywords.",
+    "AI proposed: Stories For Kids, Education For Kids, Picture books.",
+    "Tested 'Stories For Kids': Qloo ignored it in Chicago (no ranking). Dropped.",
+    "Tested 'Education For Kids': Qloo ignored it in Chicago (no ranking). Dropped.",
+    "Tested 'Picture books': top Chicago places score 0.98.",
+    "Switched from 'Stories For Kids' to 'Picture books': stronger Qloo ranking."
+   ]
+  },
+  {
+   "step": "interests",
+   "label": "Matching supporter interests",
+   "status": "done",
+   "message": "Matched: Where the Wild Things Are",
+   "notes": [
+    "'Where the Wild Things Are' matched Qloo book 'Where the Wild Things Are'."
+   ]
+  },
+  {
+   "step": "venues",
+   "label": "Scouting venues",
+   "status": "done",
+   "message": "6 venues shortlisted from 22 places",
+   "notes": [
+    "Pulled 20 event-type places and 2 more top matches in Chicago.",
+    "AI screened 22 places for event fit and guest count; kept 6. Passed over: Museum Of Contemporary Art Chicago, Chicago History Museum, The Chicago Theatre."
+   ]
+  },
+  {
+   "step": "performers",
+   "label": "Finding performers",
+   "status": "done",
+   "message": "5 performers in the shoestring popularity band",
+   "notes": [
+    "Shoestring budget → popularity band 0.00-0.50 (popularity as a fee proxy).",
+    "Qloo ignores the city filter for artists (kill test #2), so these are taste matches, not local acts."
+   ]
+  },
+  {
+   "step": "sponsors",
+   "label": "Spotting local sponsors",
+   "status": "done",
+   "message": "4 local businesses, 3 brands",
+   "notes": [
+    "Merged 1 duplicate chain location(s)."
+   ]
+  },
+  {
+   "step": "neighborhoods",
+   "label": "Mapping the best neighborhoods",
+   "status": "done",
+   "message": "Top areas: Magnificent Mile, Lincoln Park, East Village",
+   "notes": [
+    "Aggregated 7662 heatmap cells into 6 candidate hotspots."
+   ]
+  },
+  {
+   "step": "promotion",
+   "label": "Planning promotion channels",
+   "status": "done",
+   "message": "5 podcasts and shows for outreach",
+   "notes": []
+  },
+  {
+   "step": "compose",
+   "label": "Writing your event plan",
+   "status": "done",
+   "message": "Plan written",
+   "notes": [
+    "AI wrote the plan from Qloo data only, naming picks by id (V1, P2...)."
+   ]
+  },
+  {
+   "step": "verify",
+   "label": "Checking every name against Qloo",
+   "status": "done",
+   "message": "Checked 16 names the AI wrote: 16 verified, 0 removed",
+   "notes": [
+    "Verified: Barnes & Noble, Ear Hustle, Homecoming, Jersey Shore, Kenan & Kel, Magnificent Mile and 10 more.",
+    "All 26 picks on the page come straight from Qloo responses."
+   ]
+  },
+  {
+   "step": "baseline",
+   "label": "Drafting a generic AI plan for comparison",
+   "status": "done",
+   "message": "Generic plan ready",
+   "notes": [
+    "Same inputs, no Qloo data: its names are unverified and shown labeled 'no data'."
+   ]
+  }
+ ],
+ "data_notes": [
+  "Performers: Matched on taste, not location: Qloo's artist insights ignore the city filter, so check availability."
+ ],
+ "meta": {
+  "seconds": 32.5,
+  "models": [
+   "minimax/minimax-m3.1-flash:free"
+  ],
+  "llm_fallbacks": []
+ }
+}
