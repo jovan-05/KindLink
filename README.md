@@ -132,24 +132,9 @@ Frontend: `npm run lint`, `npm run build`, `npm run check-secrets` (after a buil
 | `BACKEND_URL` | frontend | yes in prod | Where `/api/*` is proxied. Read at **build time** (Next rewrites). |
 
 ## Known limitations
-- **US cities only.** Qloo place data for Indian cities came back unranked in our tests; other non-US cities
-  are untested. "New York" is mapped to "New York City" (plain "New York" resolves to the whole state); other
-  ambiguous names may need the same treatment.
-- **Performers aren't local or availability-checked.** Qloo's artist insights ignore the location filter, so
-  performers are taste matches only. Budget bands use popularity as a proxy for fee; a "generous" band can
-  still surface famous artists.
-- **Thin data happens.** Niche causes can produce weak or no taste tags; sections then show "Not enough data".
-  Affinity values are relative within a query, not comparable across plans.
-- **Venue capacity is not in Qloo data.** The LLM screens venues by description and tags; check capacity yourself.
-- **Neighborhood names are approximate**: each hotspot takes the name of the nearest Qloo locality within 4 km;
-  hotspots with no locality nearby are dropped rather than guessed.
-- **Free LLMs vary.** Output quality and latency depend on which free OpenRouter model answers; free models can be
-  rate limited (we fall back across models and to templates). The grounding check is conservative: it can miss an
-  invented name that has no entity-like suffix and wasn't marked by the model, and it can occasionally remove a
-  generic phrase that looks like a name.
-- **The baseline is a single LLM call** with a generic prompt; it represents "ask a chatbot", not the best possible
-  non-Qloo plan. Its names are unverified by design.
-- **Plans live in memory** unless `DATABASE_URL` is set; restarting the backend loses non-example plans.
+- **US cities only.** Qloo place data outside the US came back unranked in testing.
+- **Performers aren't local.** Qloo's artist insights ignore the city filter, so performers are taste matches; check availability.
+- **Free LLMs can be slow.** A live plan can take 2–3 minutes; slow steps fall back to rules, but names still come only from Qloo.
 
 ## License
 MIT. See [LICENSE](LICENSE).
